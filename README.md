@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="frontend/src-tauri/icons/icon.png" alt="FaceSync" width="150">
+</p>
+
 # FaceSyncV2
 
 Aplicación de escritorio para organizar y clasificar fotografías mediante
