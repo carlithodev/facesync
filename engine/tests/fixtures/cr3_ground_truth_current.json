@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-08-10",
+  "purpose": "Verdad de referencia del conjunto CR3 actual para medir precisión, cobertura y comportamiento por representación.",
+  "source_root": "C:/Users/ianca/Desktop/.cr3",
+  "model_name": "ArcFace",
+  "detector_backend": "retinaface",
+  "annotation_method": "Revisión visual humana de previews embebidos y verificación contra las dos ejecuciones base; las asignaciones del motor no se usaron para decidir identidad.",
+  "annotation_scope": {
+    "photos": 31,
+    "human_target_photos": 23,
+    "no_target_photos": 8,
+    "group_photos": 0,
+    "photos_with_human_companions": 0
+  },
+  "identities": [
+    {
+      "id": "ATLETA",
+      "display_name": "Atleta",
+      "photo_count": 20,
+      "natural_reference": "_R4A9874.cr3",
+      "control_reference": "_R4A0177.cr3"
+    },
+    {
+      "id": "BAILARINA",
+      "display_name": "Bailarina",
+      "photo_count": 3,
+      "natural_reference": "_R4A6176.cr3",
+      "control_reference": null
+    }
+  ],
+  "baseline_runs": [
+    {
+      "name": "natural_references",
+      "report": ".codex_tmp/cr3_run_20260809_2/_reporte_facesync.json"
+    },
+    {
+      "name": "favorable_control_reference",
+      "report": ".codex_tmp/cr3_run_20260809_3/_reporte_facesync.json",
+      "note": "La copia _CONTROL9177.cr3 corresponde byte por byte a _R4A0177.cr3 y no forma parte de las 31 fotos originales."
+    }
+  ],
+  "photos": [
+    {"file":"_R4A0055.cr3","size_bytes":29140742,"sha256":"19FA370C23E4E417BA584DF0E724476AF7F749022595A11FA49AF82CC7459690","target_identities":["ATLETA"],"companion_identities":[],"no_target":false,"scene":"retrato_individual","sequence":"ATLETA_SERIE_00"},
+    {"file":"_R4A0142.cr3","size_bytes":30381318,"sha256":"5141631FCD5728FF05798B46D632EC7AF5B8283F282C6467552949333D25179F","target_identities":["ATLETA"],"companion_identities":[],"no_target":false,"scene":"retrato_individual","sequence":"ATLETA_SERIE_00"},
+    {"file":"_R4A0149.cr3","size_bytes":31297798,"sha256":"EC56BF5DD418D70EEA1FB0D7C4A05A3603631C461FD9BAEECC7F5B1BC9420C18","target_identities":["ATLETA"],"companion_identities":[],"no_target":false,"scene":"retrato_individual","sequence":"ATLETA_SERIE_00"},
+    {"file":"_R4A0156.cr3","size_bytes":33192198,"sha256":"A9FF6626008E543F597CFE01A831F6C64689E6A8134FF56F2B914B14F1E38D1B","target_identities":["ATLETA"],"companion_identities":[],"no_target":false,"scene":"retrato_individual","sequence":"ATLETA_SERIE_00"},
+    {"file":"_R4A0160.cr3","size_bytes":35197702,"sha256":"C0E16C77A3E751CB7626A60C22FB0EBBC6DB48222E4062D29D18B904ACF8768F","target_identities":["ATLETA"],"companion_identities":[],"no_target":false,"scene":"retrato_individual","sequence":"ATLETA_SERIE_00"},
+    {"file":"_R4A0170.cr3","size_bytes":37671174,"sha256":"0AE9AFA72FC4EDB401A8A20B83080764D85F65647CF782A88CA4A21CA11859FC","target_identities":["ATLETA"],"companion_identities":[],"no_target":false,"scene":"retrato_individual","sequence":"ATLETA_SERIE_00"},
+    {"file":"_R4A0177.cr3","size_bytes":40464134,"sha256":"EBDDBFEA9BC7A642D99A0B3BFFA72FD9FF704EB7F445D36243C5B09B26AABE3C","target_identities":["ATLETA"],"companion_identities":[],"no_target":false,"scene":"retrato_individual","sequence":"ATLETA_SERIE_00","roles":["control_reference"]},
+    {"file":"_R4A0189.cr3","size_bytes":40536838,"sha256":"DA52B17B956F465EBC5689AE2A36DDC18BD66558CC297A3DCB10D88EF9DD77A4","target_identities":["ATLETA"],"companion_identities":[],"no_target":false,"scene":"retrato_individual","sequence":"ATLETA_SERIE_00"},
+    {"file":"_R4A0195.cr3","size_bytes":46963462,"sha256":"C72D976FB8716A70ED99E54945B7E607A34FC378E5BF7B8F36C179A46CA2D91D","target_identities":["ATLETA"],"companion_identities":[],"no_target":false,"scene":"retrato_individual","sequence":"ATLETA_SERIE_00"},
+    {"file":"_R4A0215.cr3","size_bytes":45385990,"sha256":"D115B79FAA32499BBC08021F0336B2786299DE0ABFB6444E3ACA072EE8350EA7","target_identities":["ATLETA"],"companion_identities":[],"no_target":false,"scene":"retrato_individual","sequence":"ATLETA_SERIE_00"},
+    {"file":"_R4A0229.cr3","size_bytes":41952006,"sha256":"03EE76105CD222CEDA34699553B906D4FF6F34DD8429011E17F753230FD38A70","target_identities":["ATLETA"],"companion_identities":[],"no_target":false,"scene":"retrato_individual","sequence":"ATLETA_SERIE_00"},
+    {"file":"_R4A1229.cr3","size_bytes":20697350,"sha256":"74C379AF64F9F4416D3D956412F5766374426F4C10B9E14BCB481D4333218039","target_identities":["ATLETA"],"companion_identities":[],"no_target":false,"scene":"retrato_individual_sobreexpuesto","sequence":"ATLETA_SERIE_12"},
+    {"file":"_R4A1235.cr3","size_bytes":27994374,"sha256":"A7672662319BD5CFB3B3530A17DFB30F954AC3BE2C2798B815BEAC260306E769","target_identities":["ATLETA"],"companion_identities":[],"no_target":false,"scene":"retrato_individual","sequence":"ATLETA_SERIE_12"},
+    {"file":"_R4A1239.cr3","size_bytes":26865414,"sha256":"D8DF3F5DA806D2AF6FE4D3DEAE78EB1D5BCD3C193707A99EE0F8C41C85C82F7C","target_identities":["ATLETA"],"companion_identities":[],"no_target":false,"scene":"retrato_individual","sequence":"ATLETA_SERIE_12"},
+    {"file":"_R4A1244.cr3","size_bytes":24698630,"sha256":"C92EB9909368A1D379A16D77347986FE50999A76EDC52E7B6E97E353324DC43E","target_identities":["ATLETA"],"companion_identities":[],"no_target":false,"scene":"retrato_individual","sequence":"ATLETA_SERIE_12"},
+    {"file":"_R4A1247.cr3","size_bytes":22407430,"sha256":"43960CBDBC42F742F644C1BD29DB2F7FB3D6FE2DA59FE78BD1ABB44B4BB6C299","target_identities":["ATLETA"],"companion_identities":[],"no_target":false,"scene":"retrato_individual","sequence":"ATLETA_SERIE_12"},
+    {"file":"_R4A1251.cr3","size_bytes":20365574,"sha256":"154E6DDB0A79EA06CB53F1EF4851AA836442CB97DEF062256D4B8F997ABB54F2","target_identities":["ATLETA"],"companion_identities":[],"no_target":false,"scene":"retrato_individual","sequence":"ATLETA_SERIE_12"},
+    {"file":"_R4A1258.cr3","size_bytes":18221830,"sha256":"1861A78435B82FF9B5D08041EC5C35D941292A91AA897CF4BA9AD843E6224402","target_identities":["ATLETA"],"companion_identities":[],"no_target":false,"scene":"retrato_individual","sequence":"ATLETA_SERIE_12"},
+    {"file":"_R4A1272.cr3","size_bytes":14768902,"sha256":"865ACDCF854813C4C6869C90768575A6ECFFF37FA6F5CA42E4A0FE97E5CB2367","target_identities":["ATLETA"],"companion_identities":[],"no_target":false,"scene":"retrato_individual_subexpuesto","sequence":"ATLETA_SERIE_12"},
+    {"file":"_R4A4513.cr3","size_bytes":26180870,"sha256":"21B1FE49598316A50F21C414209F04F6B434084F45AB3ED2F383EA2CD39930A2","target_identities":["BAILARINA"],"companion_identities":[],"no_target":false,"scene":"retrato_individual_cuerpo_completo","sequence":"BAILARINA_SERIE"},
+    {"file":"_R4A6176.cr3","size_bytes":23975174,"sha256":"F7E244F701D84DD6F65363493FD34750772102CAD413C707A3D2B9D50B20E72B","target_identities":["BAILARINA"],"companion_identities":[],"no_target":false,"scene":"retrato_individual_cuerpo_completo","sequence":"BAILARINA_SERIE","roles":["natural_reference"]},
+    {"file":"_R4A7192.cr3","size_bytes":26599174,"sha256":"4F7A09F355D47D1B301066F03AC635C3E9FE7C0EF1C31B731027486E19EEC467","target_identities":["BAILARINA"],"companion_identities":[],"no_target":false,"scene":"retrato_individual_perfil","sequence":"BAILARINA_SERIE"},
+    {"file":"_R4A9874.cr3","size_bytes":23891718,"sha256":"93FB3D2291F8B31319E16C84267726A7B1B8C61D9DFB42F433EF37F2137883D3","target_identities":["ATLETA"],"companion_identities":[],"no_target":false,"scene":"retrato_individual","sequence":"ATLETA_REFERENCIA_98","roles":["natural_reference"]},
+    {"file":"IMG_0219.CR3","size_bytes":28225783,"sha256":"94494EBE3BC87F0BBF6CC5F9DCAA6FB959D2BECB18FD23DD6CECAEF9D71AB981","target_identities":[],"companion_identities":[],"no_target":true,"scene":"muneca_sin_persona","sequence":"CONTROL_MUNECA"},
+    {"file":"IMG_0220.CR3","size_bytes":30080606,"sha256":"20182D831C47721EA4786FBAB1EEC70B5182EA5AF92200E2EF32127FC60B8E7D","target_identities":[],"companion_identities":[],"no_target":true,"scene":"muneca_sin_persona","sequence":"CONTROL_MUNECA"},
+    {"file":"IMG_0221.CR3","size_bytes":31835233,"sha256":"D0666EE54EE4D3374B784A9ADDD2F996D361B9359D9D2B14381FFE138B6B78DA","target_identities":[],"companion_identities":[],"no_target":true,"scene":"muneca_sin_persona","sequence":"CONTROL_MUNECA"},
+    {"file":"IMG_0222.CR3","size_bytes":33992788,"sha256":"F8EB6301DD2FDDA249396F720B911CDCEB6D517B509FE9E1C014E6DCC28918DA","target_identities":[],"companion_identities":[],"no_target":true,"scene":"muneca_sin_persona","sequence":"CONTROL_MUNECA"},
+    {"file":"IMG_0223.CR3","size_bytes":36266544,"sha256":"D28778B4A2EA5290A589ED3F81586EBE80FF4A7F26FEA5D459443CD021FF762C","target_identities":[],"companion_identities":[],"no_target":true,"scene":"muneca_sin_persona","sequence":"CONTROL_MUNECA"},
+    {"file":"IMG_0224.CR3","size_bytes":39352872,"sha256":"C5035BAEA266C45373002FB41159AFD8DD134AF03A0B86D0C733835603530482","target_identities":[],"companion_identities":[],"no_target":true,"scene":"muneca_sin_persona","sequence":"CONTROL_MUNECA"},
+    {"file":"IMG_0225.CR3","size_bytes":41904226,"sha256":"B4064BFD2A90E2E66435CB1A99CC52E6FCA711B04EB00D596F95AE930E2474B5","target_identities":[],"companion_identities":[],"no_target":true,"scene":"muneca_sin_persona","sequence":"CONTROL_MUNECA"},
+    {"file":"IMG_0226.CR3","size_bytes":45010627,"sha256":"38077CF7754C3FDA3BF1A6103AA1BB0310270F2937674BE0BF392094601C0CB7","target_identities":[],"companion_identities":[],"no_target":true,"scene":"muneca_sin_persona","sequence":"CONTROL_MUNECA"}
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "module": 4,
+  "name": "Arranque seguro de la galeria CR3",
+  "source_evaluations": [
+    ".codex_tmp/module4_cr3_20260811/natural_run_4/MODULE_3_CR3_NATURAL_EVALUATION.json",
+    ".codex_tmp/module4_cr3_20260811/natural_run_5/MODULE_3_CR3_NATURAL_EVALUATION.json"
+  ],
+  "input_from_module_3": {
+    "correct_photos": 21,
+    "predicted_photos": 21,
+    "target_photos": 23,
+    "precision": 1.0,
+    "recall": 0.913043,
+    "omitted_photos": ["_R4A4513.cr3", "_R4A7192.cr3"]
+  },
+  "module_4_natural": {
+    "correct_photos": 23,
+    "predicted_photos": 23,
+    "target_photos": 23,
+    "precision": 1.0,
+    "recall": 1.0,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "duplicate_assignments": 0,
+    "unknown_deliveries": 0
+  },
+  "bootstrap": {
+    "format_scope": [".cr3"],
+    "routes_kept_separate": ["preview", "fullraw"],
+    "candidate_limit": 30,
+    "minimum_distinct_photos": 2,
+    "confidence_zero_blocked": true,
+    "reference_photos_excluded_from_candidate_groups": true,
+    "other_gallery_ownership_checked": true,
+    "face_scale_compatibility_checked": true,
+    "preview": {
+      "accepted_identities": 0,
+      "blocked_identities": 1,
+      "feeders": 0,
+      "matches_added": 0
+    },
+    "fullraw": {
+      "accepted_identities": 1,
+      "blocked_identities": 0,
+      "feeders": 2,
+      "matches_added": 2,
+      "identity": "BAILARINA",
+      "feeders_used": ["_R4A4513.cr3", "_R4A7192.cr3"],
+      "internal_median": 0.073525,
+      "internal_maximum": 0.073525,
+      "root_minimum": 0.460609,
+      "root_median": 0.490069,
+      "bridge_limit": 0.473525,
+      "reference_margin": 0.508913,
+      "gallery_margin": 0.817163
+    }
+  },
+  "rejected_attempt": {
+    "evaluation": ".codex_tmp/module4_cr3_20260811/natural_run_3/MODULE_3_CR3_NATURAL_EVALUATION.json",
+    "correct_photos": 23,
+    "predicted_photos": 25,
+    "precision": 0.92,
+    "recall": 1.0,
+    "false_positives": ["IMG_0225.CR3", "IMG_0226.CR3"],
+    "decision": "Rechazado. Los dos controles de muneco se parecian en embedding al grupo; se agrego una guarda conservadora de escala facial exclusiva de CR3 y se repitio toda la validacion."
+  },
+  "semantic_replays": [
+    {
+      "run": 4,
+      "correct": 23,
+      "predicted": 23,
+      "precision": 1.0,
+      "recall": 1.0,
+      "feeders": ["_R4A4513.cr3", "_R4A7192.cr3"]
+    },
+    {
+      "run": 5,
+      "correct": 23,
+      "predicted": 23,
+      "precision": 1.0,
+      "recall": 1.0,
+      "feeders": ["_R4A4513.cr3", "_R4A7192.cr3"]
+    }
+  ],
+  "packaged_sidecar": {
+    "path": "engine/dist/FaceSyncEngine/FaceSyncEngine.exe",
+    "sha256": "73DA69994B63FD62AF893DBFCC182AFFC62C7C08555ED0C9B287AA3432832211",
+    "resource_copy_sha256": "73DA69994B63FD62AF893DBFCC182AFFC62C7C08555ED0C9B287AA3432832211",
+    "evaluation": ".codex_tmp/module4_cr3_20260811/sidecar_run_1/MODULE_3_CR3_SIDECAR_EVALUATION.json",
+    "correct_photos": 23,
+    "predicted_photos": 23,
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  "cr2_golden_regression": {
+    "status": "APROBADA",
+    "report": ".codex_tmp/module4_cr3_20260811/cr2_regression_sidecar_final/output/_reporte_facesync.json",
+    "assignment_count": 259,
+    "exact_signature_preserved": true
+  },
+  "automated_tests": {
+    "focused_passed": 12,
+    "focused_failed": 0,
+    "full_suite_passed": 107,
+    "full_suite_failed": 0,
+    "source_python_compile": true,
+    "vite_build": true,
+    "cargo_release_check": true,
+    "pyinstaller_sidecar": true
+  },
+  "unchanged_components": [
+    "RetinaFace",
+    "ArcFace",
+    "secure_threshold_0.28",
+    "review_threshold_0.40",
+    "JPG_classification",
+    "CR2_classification"
+  ],
+  "validation_limits": {
+    "real_human_identities": 2,
+    "real_group_photo_set_available": false,
+    "note": "El modulo cumple su cierre sobre el conjunto disponible y sus casos de contaminacion estan cubiertos por pruebas automatizadas. La paridad CR3 general de produccion requiere los modulos y conjuntos restantes."
+  }
+}

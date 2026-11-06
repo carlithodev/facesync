@@ -1,0 +1,45 @@
+# Private credentials and local account data
+engine/.env
+engine/client_secret.json
+engine/usuarios/
+*.token.json
+
+# Python environments and generated state
+engine/env_ia/
+**/__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.facesync_cache/
+
+# JavaScript / Tauri build output
+frontend/node_modules/
+frontend/dist/
+frontend/src-tauri/target/
+frontend/src-tauri/resources/engine/*
+!frontend/src-tauri/resources/engine/.gitkeep
+
+# Local editor and OS files
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
+.codex_tmp/
+.pnpm-store/
+**/.env
+**/.env.*
+!**/.env.example
+/resources/engine/
+/outputs/
+/.pnpm-store/
+/.codex_tmp/
+**/.env
+**/.env.*
+!**/.env.example
+/engine/dist/
+/engine/build/
+/engine/weights/
+/engine/models_onnx/

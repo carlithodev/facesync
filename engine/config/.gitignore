@@ -1,0 +1,5 @@
+# Secretos: NUNCA versionar. Solo el README se sube.
+client_secret.json
+.env
+*.json
+!*.example

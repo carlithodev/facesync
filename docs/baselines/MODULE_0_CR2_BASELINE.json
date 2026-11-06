@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-08-10",
+  "purpose": "Línea base inmutable para detectar regresiones del flujo JPG/CR2 mientras se desarrolla la ruta exclusiva CR3.",
+  "initial_version": {
+    "engine_source_manifest": {
+      "file_count": 106,
+      "sha256": "E65B6F953C2C23BA0A057FB67E9B72F989F3D6EE861C63EE66D56A0E2E5FE9B5"
+    },
+    "engine_production_manifest": {
+      "file_count": 98,
+      "sha256": "19BEDA17938C5389BD5B16E7BD449BF635287B77FFF2C2D94F998DC7A563D424"
+    },
+    "frontend_source_manifest": {
+      "file_count": 45,
+      "sha256": "ADC02E1CE5AFB4B2C8566B22A34DF9B5334A91C372798D143F5FB11172C5E860"
+    },
+    "critical_files": {
+      "engine/tools/facesync_tools.py": "9426F4BE570EF66CF897AB29E1FC3446579633651D3AC1757EE2C3A0FFD326D6",
+      "engine/bridge.py": "1823CA9991C019FE4965E4D94D82CE4224C6CF017CB91F1730506F6B980FB965",
+      "engine/requirements.txt": "2AB35ED976534FF5BC86E6EE37121F9142F87FD0BE2097CC0684DE012FF6EC01",
+      "engine/tests/test_facesync_parity.py": "CA12FEF3678EB8D0DDF7538E7F882CE87F8B2C582F58A1ECE49E19B97A13E88A",
+      "frontend/src-tauri/tauri.conf.json": "F9916135829B313966EA1176A02E05228F9FE49C996498F7C2FBAFC03739B042"
+    },
+    "packaged_engine": {
+      "path": "engine/dist/FaceSyncEngine/FaceSyncEngine.exe",
+      "size_bytes": 49026979,
+      "sha256": "B2BC9B00C6474A9FD6798E02AE4C9113AE8C94FD350845BA6311F091080F8B13"
+    },
+    "installer": {
+      "path": "frontend/src-tauri/target/release/bundle/nsis/FaceSync_1.0.0_x64-setup.exe",
+      "size_bytes": 739519415,
+      "sha256": "226ACA954B6120391350169B4B2BE0F4BE69250AC5CF50A4A34554C44613255B"
+    },
+    "toolchain": {
+      "node": "24.14.0",
+      "pnpm": "11.16.0",
+      "cargo": "1.96.0",
+      "rustc": "1.96.0",
+      "python_dependencies": "engine/requirements.txt"
+    }
+  },
+  "inputs": {
+    "source": "C:/Users/ianca/Desktop/piloto1/FRANK",
+    "excel": "C:/Users/ianca/Desktop/piloto1/501m.xlsx",
+    "excel_sha256": "012557822052A8DF7F1CBF382DE67D6743263DB964A9363DC9C485BB38B9E886",
+    "excel_sheet": "Listado de Fotos",
+    "excel_range": "A1:B23",
+    "source_manifest_sha256": "E3FD54A1BDE5CE30ED28808329FA650A79CD8A3B5C313AA6DF29EC61BAB4D4DF",
+    "source_counts": {
+      "total": 1810,
+      ".JPG": 1206,
+      ".CR2": 604
+    },
+    "name_column": "Nombre",
+    "reference_column": "Código de foto"
+  },
+  "golden_profile": {
+    "name": "mixed_real_no_cache",
+    "report_sha256": "586A1D081F6EBB44735E9CE1DA1EBC5EC1A0412C5CAD3E273E6D8B89FD6DAC8F",
+    "assignment_manifest_sha256": "471F9281458F5A3A28F49FE1243757C44F8AA8750CB1E4E7EAC6594A4F8C30EE",
+    "assignment_count": 259,
+    "by_extension": {
+      ".CR2": 130,
+      ".JPG": 129
+    },
+    "by_person": {
+      "AGUIRRE FIGUEROA": 9,
+      "ARMENTA CHICO": 12,
+      "ARRIOVIVEZ OTHON": 12,
+      "AVILEZ BARCELO IVAN": 14,
+      "AYALA RUIZ ANA SOFIA": 10,
+      "CORRAL OXIMEA JES": 12,
+      "FELIX ARVIZU GRECIA": 14,
+      "HERNANDEZ BUELNA": 12,
+      "HERNANDEZ TRUJILL": 14,
+      "IBARRA NORIEGA": 12,
+      "LARA ORTEGA DIEGO": 10,
+      "LOPEZ GUTIERREZ AX": 8,
+      "LOPEZ LOPEZ ALLEN": 14,
+      "MADRID CRUZ DAREY": 12,
+      "MARISCAL HIGUERA": 10,
+      "OCHOA RIVERA NORM": 12,
+      "PORTILLO SALCIDO": 10,
+      "RAMIREZ CERVANTES": 12,
+      "RUIZ MARES MIA": 12,
+      "TRUJILLO TAMAYO": 16,
+      "VALENCIA VAZQUEZ": 12,
+      "VILLARREAL ESPINOZ": 10
+    },
+    "report_expectations": {
+      "success": true,
+      "total_personas": 22,
+      "total_referencias": 22,
+      "referencias_encontradas": 22,
+      "referencias_faltantes_count": 0,
+      "referencias_ambiguas_count": 0,
+      "total_fotos_analizadas": 1810,
+      "fotos_analizadas_reales": 1207,
+      "total_fotos_copiadas": 130,
+      "archivos_entregados_totales": 259,
+      "total_fotos_unicas_clasificadas": 130,
+      "fotos_ignoradas_no_asignadas_count": 948,
+      "conflictos_identidad_count": 0,
+      "errores_imagen_count": 0,
+      "raw_omitidos_por_jpg_gemelo": 603,
+      "cr2_omitidos_por_jpg_gemelo": 603,
+      "raw_gemelos_copiados": 129,
+      "cr2_gemelos_copiados": 129,
+      "cache_hit_percent": 0.0,
+      "cr2_detectadas": 1,
+      "cr2_errores": 0,
+      "cr3_detectadas": 0,
+      "cr3_fullraw_enabled": false,
+      "cr3_fullraw_processed": 0,
+      "performance_backend": "onnx_directml"
+    },
+    "runtime_observed_seconds": 475.403,
+    "runtime_is_gate": false
+  },
+  "raw_io_control": {
+    "name": "cr2_positive_subset_no_cache",
+    "purpose": "Comprobar lectura, conversión, caché de conversión y extracción facial CR2 sin depender de JPG gemelos. No es una verdad semántica porque elimina negativos y cambia el contexto de auditoría.",
+    "source_count": 130,
+    "cr2_detected": 130,
+    "cr2_errors": 0,
+    "image_errors": 0,
+    "embeddings_calculated": 130,
+    "cache_hit_percent": 0.0,
+    "runtime_observed_seconds": 52.019
+  },
+  "cr3_reports_preserved": {
+    ".codex_tmp/cr3_run_20260809_2/_reporte_facesync.json": "CCAA621C49A8916A38EACF1A1E5D31D372E0CB3CC78B119322C451B07EF2FE5E",
+    ".codex_tmp/cr3_run_20260809_3/_reporte_facesync.json": "499997AC65110D68627C8FD4A7FB6C4B7D87B8EC4FC33FA8615B7110E8997FF6"
+  },
+  "automated_tests_before_module_changes": {
+    "command": "python -m unittest discover -s engine/tests -p test_*.py",
+    "run_count": 80,
+    "passed": 80,
+    "failed": 0,
+    "elapsed_seconds": 3.967
+  }
+}

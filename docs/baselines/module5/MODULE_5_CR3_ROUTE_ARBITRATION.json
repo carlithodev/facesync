@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "module": 5,
+  "name": "Decision coordinada preview y Full RAW",
+  "source_evaluations": [
+    ".codex_tmp/module5_cr3_20260811/natural_run_1/MODULE_3_CR3_NATURAL_EVALUATION.json",
+    ".codex_tmp/module5_cr3_20260811/natural_run_2/MODULE_3_CR3_NATURAL_EVALUATION.json"
+  ],
+  "input_from_module_4": {
+    "correct_photos": 23,
+    "predicted_photos": 23,
+    "target_photos": 23,
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  "module_5_natural": {
+    "correct_photos": 23,
+    "predicted_photos": 23,
+    "target_photos": 23,
+    "precision": 1.0,
+    "recall": 1.0,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "duplicate_assignments": 0,
+    "unknown_deliveries": 0,
+    "raw_errors": 0,
+    "image_errors": 0
+  },
+  "route_arbiter": {
+    "format_scope": [".cr3"],
+    "decision_unit": "face",
+    "embeddings_mixed": false,
+    "preview_assignments_immutable": true,
+    "cr3_target_photos": 14,
+    "fullraw_confirmed_faces": 5,
+    "agreements": 0,
+    "preview_assignments_preserved": 0,
+    "rescues_accepted": 5,
+    "rescues_by_consensus": 0,
+    "rescues_fullraw_only": 5,
+    "blocked_contradictions": 0,
+    "blocked_geometry": 0,
+    "blocked_margin": 0,
+    "blocked_evidence": 0,
+    "accepted_photos": [
+      "_R4A0055.cr3",
+      "_R4A1229.cr3",
+      "_R4A1272.cr3",
+      "_R4A4513.cr3",
+      "_R4A7192.cr3"
+    ],
+    "bootstrap_supported_photos": ["_R4A4513.cr3", "_R4A7192.cr3"]
+  },
+  "safety_rules": {
+    "secure_preview_never_replaced": true,
+    "cross_route_faces_related_by_normalized_geometry": true,
+    "single_real_fullraw_face_allowed_when_preview_has_no_real_face": true,
+    "group_geometry_must_be_unambiguous": true,
+    "fullraw_requires_secure_distance_or_gallery_consensus": true,
+    "identity_margin_required_without_gallery_consensus": true,
+    "clear_cross_route_disagreement_blocked": true,
+    "confidence_zero_preview_not_treated_as_real_face": true
+  },
+  "semantic_replays": [
+    {
+      "run": 1,
+      "correct": 23,
+      "predicted": 23,
+      "precision": 1.0,
+      "recall": 1.0,
+      "rescues_accepted": 5
+    },
+    {
+      "run": 2,
+      "correct": 23,
+      "predicted": 23,
+      "precision": 1.0,
+      "recall": 1.0,
+      "rescues_accepted": 5
+    }
+  ],
+  "packaged_sidecar": {
+    "path": "engine/dist/FaceSyncEngine/FaceSyncEngine.exe",
+    "sha256": "BA52A8684E6EADCFEB5E6C612BA250FA1BD402CD0B62935207D0953F512F410F",
+    "resource_copy_sha256": "BA52A8684E6EADCFEB5E6C612BA250FA1BD402CD0B62935207D0953F512F410F",
+    "evaluation": ".codex_tmp/module5_cr3_20260811/sidecar_run_1/MODULE_3_CR3_SIDECAR_EVALUATION.json",
+    "report": ".codex_tmp/module5_cr3_20260811/sidecar_run_1/resultado/_reporte_facesync.json",
+    "correct_photos": 23,
+    "predicted_photos": 23,
+    "precision": 1.0,
+    "recall": 1.0,
+    "arbiter_rows": 5
+  },
+  "cr2_golden_regression": {
+    "status": "APROBADA",
+    "report": ".codex_tmp/module5_cr3_20260811/cr2_regression_sidecar_final/output/_reporte_facesync.json",
+    "assignment_count": 259,
+    "exact_signature_preserved": true
+  },
+  "automated_tests": {
+    "route_arbiter_passed": 13,
+    "route_arbiter_failed": 0,
+    "full_suite_passed": 120,
+    "full_suite_failed": 0,
+    "source_python_compile": true,
+    "vite_build": true,
+    "cargo_release_check": true,
+    "pyinstaller_sidecar": true
+  },
+  "unchanged_components": [
+    "RetinaFace",
+    "ArcFace",
+    "secure_threshold_0.28",
+    "review_threshold_0.40",
+    "generic_assignment_resolver",
+    "JPG_classification",
+    "CR2_classification",
+    "SQLite_and_historical_registry"
+  ],
+  "validation_limits": {
+    "real_human_identities": 2,
+    "real_group_photo_set_available": false,
+    "real_cross_route_disagreements_observed": 0,
+    "note": "El resultado real conserva 23/23. Consenso, contradiccion, multiples identidades y no reemplazo estan cubiertos por pruebas automatizadas, pero requieren un conjunto real etiquetado mas amplio antes de declarar paridad CR3 general."
+  }
+}

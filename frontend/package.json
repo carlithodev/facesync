@@ -1,0 +1,27 @@
+{
+  "name": "facesync-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:engine": "node build-engine.mjs",
+    "build:bundle": "npm run build:engine && npm run build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "tauri:build": "tauri build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "@vitejs/plugin-react": "^6.0.2",
+    "vite": "^8.0.16"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.1",
+    "@tauri-apps/plugin-dialog": "^2.7.1",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "tailwindcss": "^4.3.1"
+  }
+}

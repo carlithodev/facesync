@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "module": 8,
+  "date": "2026-08-11",
+  "status": "BLOCKED_BY_DATA",
+  "technical_pipeline": "PASSED",
+  "general_cr3_parity": "NOT_YET_PROVEN",
+  "product_code_changes_in_module": 0,
+  "levels": {
+    "level_1_current_dataset": {
+      "status": "PASSED",
+      "cr3_analyzed": 35,
+      "target_photos": 23,
+      "correct_photos": 23,
+      "precision": 1.0,
+      "recall": 1.0,
+      "controls_rejected": 12,
+      "raw_errors": 0,
+      "image_errors": 0,
+      "repeated_identities": 2
+    },
+    "level_2_minimum_diversity": {
+      "status": "UNAVAILABLE",
+      "required_repeated_identities": 5,
+      "available_repeated_identities": 2
+    },
+    "level_3_representative_classroom": {
+      "status": "UNAVAILABLE",
+      "required_students_min": 15,
+      "required_students_max": 30,
+      "available_labeled_cr3_classroom": false
+    },
+    "level_4_repeated_codes": {
+      "status": "UNAVAILABLE_REAL_DATA",
+      "automated_tests": "PASSED",
+      "real_three_room_cr3_dataset": false
+    },
+    "level_5_mixed_formats": {
+      "status": "PASSED",
+      "analyzed": 1841,
+      "delivered": 282,
+      "cr2_exact_signature_preserved": true,
+      "cr2_jpg_assignments": 259,
+      "cr3_correct": 23,
+      "cr3_targets": 23,
+      "raw_errors": 0,
+      "artifact": ".codex_tmp/module8_cr3_20260811/mixed_sidecar_1/MODULE_8_MIXED_SIDECAR.json"
+    },
+    "level_6_volume": {
+      "status": "PASSED_TECHNICAL_VOLUME",
+      "cr3_count": 1000,
+      "cold_wall_seconds": 804.594,
+      "warm_wall_seconds": 34.859,
+      "cold_peak_mb": 1371.3,
+      "warm_peak_mb": 748.3,
+      "cold_cache_percent": 0.0,
+      "warm_cache_percent": 100.0,
+      "speedup_ratio": 23.0814,
+      "assignments_identical": true,
+      "cold_raw_errors": 0,
+      "warm_raw_errors": 0,
+      "identity_diversity_test": false,
+      "artifact": ".codex_tmp/module8_cr3_20260811/volume_run_v1/MODULE_8_CR3_VOLUME.json"
+    }
+  },
+  "regression": {
+    "unit_tests_passed": 129,
+    "unit_tests_total": 129,
+    "python_compile": "PASSED",
+    "vite_build": "PASSED",
+    "cargo_release_check": "PASSED",
+    "pyinstaller": "PASSED",
+    "cr2_golden_from_built_sidecar": "PASSED",
+    "cr2_golden_from_installed_sidecar": "PASSED",
+    "cr2_assignment_count": 259,
+    "cr2_assignment_manifest_sha256": "471F9281458F5A3A28F49FE1243757C44F8AA8750CB1E4E7EAC6594A4F8C30EE",
+    "cr2_by_extension": {
+      ".CR2": 130,
+      ".JPG": 129
+    },
+    "cr2_fullraw_cr3_processed": 0,
+    "cr2_image_errors": 0,
+    "cr2_deepface_errors": 0
+  },
+  "packaging": {
+    "sidecar_sha256": "2D4C9B1A5DA908294A7E292C3713CC04D6EBE30AAB349289975AADDECFEBC7CB",
+    "tauri_resource_sha256": "2D4C9B1A5DA908294A7E292C3713CC04D6EBE30AAB349289975AADDECFEBC7CB",
+    "installed_engine_sha256": "2D4C9B1A5DA908294A7E292C3713CC04D6EBE30AAB349289975AADDECFEBC7CB",
+    "installer_path": "frontend/src-tauri/target/release/bundle/nsis/FaceSync_1.0.0_x64-setup.exe",
+    "installer_size_bytes": 739126475,
+    "installer_sha256": "5166D1C89FC8ADA831A9622BE55AB285AA29DF1AA55218E10C500DD26997B54E",
+    "installer_exit_code": 0,
+    "clean_install": "PASSED_ISOLATED",
+    "installed_file_count": 2182,
+    "installed_size_mb": 2921.8,
+    "installed_app_launch": "PASSED",
+    "installed_app_responding": true,
+    "existing_installation_preserved": true
+  },
+  "installed_cr3": {
+    "status": "PASSED",
+    "engine_sha256": "2D4C9B1A5DA908294A7E292C3713CC04D6EBE30AAB349289975AADDECFEBC7CB",
+    "analyzed": 35,
+    "references_found": 2,
+    "references_total": 2,
+    "target_photos": 23,
+    "correct_photos": 23,
+    "controls_rejected": 12,
+    "delivered_cr3": 23,
+    "json_report": true,
+    "txt_report": true,
+    "xlsx_report": true,
+    "xlsx_sheets": 21,
+    "xlsx_formula_errors": 0,
+    "artifact": ".codex_tmp/module8_cr3_20260811/installed_sidecar_cr3/MODULE_3_CR3_SIDECAR_EVALUATION.json"
+  },
+  "frozen_versions": {
+    "deepface": "0.0.100",
+    "retina_face": "0.0.17",
+    "tensorflow": "2.21.0",
+    "tf_keras": "2.21.0",
+    "onnxruntime_directml": "1.24.4",
+    "arcface_sha256": "6336979C0C602CAE08D1122A66F4DFB862D059BBCD8EF80306AEF2B2249B0C93",
+    "retinaface_sha256": "ECB2393A89DA3DD3D6796AD86660E298F62A0C8AE7578D92EB6AF14E0BB93ADF"
+  },
+  "missing_data_to_close": [
+    "At least five repeated real identities with varied CR3 poses and natural references",
+    "One labeled CR3 classroom with 15 to 30 students, groups, companions and lighting variation",
+    "Three real CR3 rooms processed in order with at least one root code reused by different people"
+  ]
+}

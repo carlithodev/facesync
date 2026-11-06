@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "module": 3,
+  "name": "Fortalecimiento de la referencia CR3",
+  "source_evaluation": ".codex_tmp/module3_cr3_20260811/natural_run_5/MODULE_3_CR3_NATURAL_EVALUATION.json",
+  "source_report": ".codex_tmp/module3_cr3_20260811/natural_run_5/resultado/_reporte_facesync.json",
+  "baseline_natural": {
+    "correct_photos": 2,
+    "predicted_photos": 2,
+    "target_photos": 23,
+    "precision": 1.0,
+    "recall": 0.086957
+  },
+  "module_3_natural": {
+    "correct_photos": 21,
+    "predicted_photos": 21,
+    "target_photos": 23,
+    "precision": 1.0,
+    "recall": 0.913043,
+    "false_positives": 0,
+    "duplicate_assignments": 0,
+    "unknown_deliveries": 0
+  },
+  "by_identity": {
+    "ATLETA": {
+      "correct": 20,
+      "target": 20,
+      "precision": 1.0,
+      "recall": 1.0,
+      "root_reference": "_R4A9874.cr3",
+      "operational_anchor": "_R4A1244.cr3",
+      "selected_route": "fullraw",
+      "support_photos": 18
+    },
+    "BAILARINA": {
+      "correct": 1,
+      "target": 3,
+      "precision": 1.0,
+      "recall": 0.333333,
+      "root_reference": "_R4A6176.cr3",
+      "operational_anchor": null,
+      "selected_route": "root",
+      "omitted_photos": ["_R4A4513.cr3", "_R4A7192.cr3"],
+      "safety_decision": "La referencia se conservó porque el mejor grupo no superó el margen mínimo frente al segundo grupo."
+    }
+  },
+  "selector": {
+    "references": 2,
+    "promoted_references": 1,
+    "preserved_references": 1,
+    "candidate_limit_per_reference_face": 30,
+    "fullraw_processed": 31,
+    "fullraw_errors": 0,
+    "embeddings_exported": false
+  },
+  "semantic_replays": [
+    {
+      "run": 3,
+      "correct": 21,
+      "predicted": 21,
+      "anchor": "_R4A1244.cr3",
+      "omissions": ["_R4A4513.cr3", "_R4A7192.cr3"]
+    },
+    {
+      "run": 4,
+      "correct": 21,
+      "predicted": 21,
+      "anchor": "_R4A1244.cr3",
+      "omissions": ["_R4A4513.cr3", "_R4A7192.cr3"]
+    },
+    {
+      "run": 5,
+      "correct": 21,
+      "predicted": 21,
+      "anchor": "_R4A1244.cr3",
+      "omissions": ["_R4A4513.cr3", "_R4A7192.cr3"]
+    }
+  ],
+  "packaged_sidecar": {
+    "path": "engine/dist/FaceSyncEngine/FaceSyncEngine.exe",
+    "sha256": "9FC3E0BB0EF30E3319EB63A2BE0D3AB4BF6506EBACCF6965EE561CDA085F1ED4",
+    "resource_copy_sha256": "9FC3E0BB0EF30E3319EB63A2BE0D3AB4BF6506EBACCF6965EE561CDA085F1ED4",
+    "evaluation": ".codex_tmp/module3_cr3_20260811/sidecar_run_1/MODULE_3_CR3_SIDECAR_EVALUATION.json",
+    "correct_photos": 21,
+    "precision": 1.0,
+    "recall": 0.913043
+  },
+  "cr2_golden_regression": {
+    "status": "APROBADA",
+    "report": ".codex_tmp/module3_cr3_20260811/cr2_regression_final/output/_reporte_facesync.json",
+    "assignment_count": 259,
+    "exact_signature_preserved": true
+  },
+  "automated_tests": {
+    "passed": 98,
+    "failed": 0,
+    "python_compile": true,
+    "vite_build": true,
+    "cargo_release_check": true
+  }
+}

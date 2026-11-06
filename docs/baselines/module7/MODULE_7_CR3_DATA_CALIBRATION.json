@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "module": 7,
+  "name": "Calibración CR3 basada en datos",
+  "status": "COMPLETADO",
+  "decision": "calibration_noop",
+  "decision_reason": "La configuración actual obtuvo 23/23 con cero falsos positivos y rechazó cuatro CR3 inéditos; ajustar con sólo dos identidades repetidas produciría sobreajuste sin mejora observable.",
+  "product_code_changed": false,
+  "frozen_components": [
+    "RetinaFace",
+    "ArcFace",
+    "secure_threshold_0.28",
+    "review_threshold_0.40",
+    "JPG_CR2_rules",
+    "CR3_reference_selector_module3",
+    "CR3_gallery_bootstrap_module4",
+    "CR3_route_arbiter_module5",
+    "CR3_route_history_module6"
+  ],
+  "inventory": {
+    "base": {
+      "cr3_files": 31,
+      "human_target_photos": 23,
+      "no_target_controls": 8,
+      "repeated_human_identities": 2
+    },
+    "canon_download": {
+      "valid_cr3_files": 23,
+      "duplicate_of_base_by_sha256": 23,
+      "macos_metadata_files": 13,
+      "independent_evidence_added": 0
+    },
+    "new_files": {
+      "count": 4,
+      "human_negative_photos": 1,
+      "unseen_people_in_one_photo": 2,
+      "no_person_photos": 3,
+      "repeated_unseen_identities": 0,
+      "files": [
+        "canon_eos_m50_02.cr3",
+        "IMG_0163.CR3",
+        "IMG_0482_raw.CR3",
+        "IMG_0483_craw.CR3"
+      ]
+    }
+  },
+  "current_distributions": {
+    "preview": {
+      "same_identity": {"count": 191, "min": 0.048523, "median": 0.28258, "p90": 0.821052, "max": 0.956203},
+      "different_identity": {"count": 40, "min": 0.207546, "median": 0.902886, "p90": 1.001985, "max": 1.030798},
+      "auc_lower_is_match": 0.93089,
+      "true_accept_rate_at_0_28": 0.481675,
+      "false_accept_rate_at_0_28": 0.025
+    },
+    "fullraw": {
+      "same_identity": {"count": 193, "min": 0.035529, "median": 0.284807, "p90": 0.501557, "max": 0.709017},
+      "different_identity": {"count": 60, "min": 0.35004, "median": 0.90489, "p90": 1.009136, "max": 1.043933},
+      "auc_lower_is_match": 0.989119,
+      "true_accept_rate_at_0_28": 0.471503,
+      "false_accept_rate_at_0_28": 0.0
+    }
+  },
+  "selected_configuration": {
+    "min_independent_supports": 2,
+    "reference_identity_margin": 0.05,
+    "arbiter_gallery_margin": 0.04,
+    "reference_peer_distance": 0.40,
+    "cross_route_face_iou": 0.25,
+    "arbiter_geometry_margin": 0.05,
+    "feeders_per_identity": 15,
+    "bootstrap_candidate_limit": 30,
+    "route_policy": "preview segura inmutable; Full RAW sólo rescata con evidencia y decisión por rostro"
+  },
+  "before_after": {
+    "before": {"correct": 23, "predicted": 23, "targets": 23, "precision": 1.0, "recall": 1.0},
+    "after": {"correct": 23, "predicted": 23, "targets": 23, "precision": 1.0, "recall": 1.0},
+    "parameter_changes": 0
+  },
+  "expanded_source_validation": {
+    "artifact": ".codex_tmp/module7_cr3_20260811/classification_unseen_negatives_1/MODULE_3_CR3_NATURAL_EVALUATION.json",
+    "analyzed_cr3": 35,
+    "correct": 23,
+    "predicted": 23,
+    "targets": 23,
+    "precision": 1.0,
+    "recall": 1.0,
+    "controls_rejected": 12,
+    "new_files_rejected": 4,
+    "duplicates": 0,
+    "unknown_deliveries": 0,
+    "raw_errors": 0,
+    "image_errors": 0
+  },
+  "expanded_sidecar_validation": {
+    "artifact": ".codex_tmp/module7_cr3_20260811/sidecar_unseen_negatives_1/MODULE_3_CR3_SIDECAR_EVALUATION.json",
+    "engine_sha256": "2D4C9B1A5DA908294A7E292C3713CC04D6EBE30AAB349289975AADDECFEBC7CB",
+    "analyzed_cr3": 35,
+    "correct": 23,
+    "predicted": 23,
+    "targets": 23,
+    "precision": 1.0,
+    "recall": 1.0,
+    "controls_rejected": 12,
+    "new_files_rejected": 4,
+    "raw_errors": 0,
+    "image_errors": 0
+  },
+  "cr2_golden_regression": {
+    "status": "APROBADA",
+    "assignment_count": 259,
+    "exact_signature_preserved": true,
+    "report": ".codex_tmp/module7_cr3_20260811/cr2_golden_regression/output/_reporte_facesync.json"
+  },
+  "verification": {
+    "automated_tests_passed": 129,
+    "automated_tests_failed": 0,
+    "python_compile": true,
+    "vite_build": true,
+    "cargo_release_check": true
+  },
+  "validation_limit": "Las dos personas inéditas aparecen juntas en una sola fotografía; sirven como controles negativos, no como validación positiva de cobertura con identidades no usadas anteriormente.",
+  "next_module_started": false
+}

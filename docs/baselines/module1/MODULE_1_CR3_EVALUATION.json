@@ -1,0 +1,4909 @@
+{
+  "schema_version": 1,
+  "module": 1,
+  "purpose": "Medición facial y verdad de referencia CR3",
+  "manifest_summary": {
+    "photos": 31,
+    "human_target_photos": 23,
+    "no_target_photos": 8,
+    "group_photos": 0,
+    "photos_with_human_companions": 0
+  },
+  "identities": [
+    {
+      "id": "ATLETA",
+      "display_name": "Atleta",
+      "photo_count": 20,
+      "natural_reference": "_R4A9874.cr3",
+      "control_reference": "_R4A0177.cr3"
+    },
+    {
+      "id": "BAILARINA",
+      "display_name": "Bailarina",
+      "photo_count": 3,
+      "natural_reference": "_R4A6176.cr3",
+      "control_reference": null
+    }
+  ],
+  "classification_runs": [
+    {
+      "run_name": "natural_references",
+      "report_path": null,
+      "metrics": {
+        "by_identity": {
+          "ATLETA": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 19,
+            "precision": 1.0,
+            "recall": 0.05
+          },
+          "BAILARINA": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 2,
+            "precision": 1.0,
+            "recall": 0.333333
+          }
+        },
+        "overall": {
+          "target_photos": 23,
+          "predicted_photos": 2,
+          "correct_photos": 2,
+          "precision": 1.0,
+          "recall": 0.086957
+        },
+        "errors": [
+          {
+            "file": "_R4A0055.cr3",
+            "expected": [
+              "ATLETA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          },
+          {
+            "file": "_R4A0142.cr3",
+            "expected": [
+              "ATLETA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          },
+          {
+            "file": "_R4A0149.cr3",
+            "expected": [
+              "ATLETA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          },
+          {
+            "file": "_R4A0156.cr3",
+            "expected": [
+              "ATLETA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          },
+          {
+            "file": "_R4A0160.cr3",
+            "expected": [
+              "ATLETA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          },
+          {
+            "file": "_R4A0170.cr3",
+            "expected": [
+              "ATLETA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          },
+          {
+            "file": "_R4A0177.cr3",
+            "expected": [
+              "ATLETA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          },
+          {
+            "file": "_R4A0189.cr3",
+            "expected": [
+              "ATLETA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          },
+          {
+            "file": "_R4A0195.cr3",
+            "expected": [
+              "ATLETA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          },
+          {
+            "file": "_R4A0215.cr3",
+            "expected": [
+              "ATLETA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          },
+          {
+            "file": "_R4A0229.cr3",
+            "expected": [
+              "ATLETA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          },
+          {
+            "file": "_R4A1229.cr3",
+            "expected": [
+              "ATLETA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          },
+          {
+            "file": "_R4A1235.cr3",
+            "expected": [
+              "ATLETA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          },
+          {
+            "file": "_R4A1239.cr3",
+            "expected": [
+              "ATLETA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          },
+          {
+            "file": "_R4A1244.cr3",
+            "expected": [
+              "ATLETA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          },
+          {
+            "file": "_R4A1247.cr3",
+            "expected": [
+              "ATLETA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          },
+          {
+            "file": "_R4A1251.cr3",
+            "expected": [
+              "ATLETA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          },
+          {
+            "file": "_R4A1258.cr3",
+            "expected": [
+              "ATLETA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          },
+          {
+            "file": "_R4A1272.cr3",
+            "expected": [
+              "ATLETA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          },
+          {
+            "file": "_R4A4513.cr3",
+            "expected": [
+              "BAILARINA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          },
+          {
+            "file": "_R4A7192.cr3",
+            "expected": [
+              "BAILARINA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          }
+        ]
+      },
+      "duplicate_assignments": [],
+      "unknown_deliveries": [],
+      "rows": [
+        {
+          "file": "_R4A0055.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A0142.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A0149.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A0156.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A0160.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A0170.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A0177.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A0189.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A0195.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A0215.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A0229.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A1229.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A1235.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A1239.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A1244.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A1247.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A1251.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A1258.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A1272.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A4513.cr3",
+          "target_identities": [
+            "BAILARINA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A6176.cr3",
+          "target_identities": [
+            "BAILARINA"
+          ],
+          "predicted_identity": "BAILARINA",
+          "all_assignments": [
+            "BAILARINA"
+          ]
+        },
+        {
+          "file": "_R4A7192.cr3",
+          "target_identities": [
+            "BAILARINA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A9874.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": "ATLETA",
+          "all_assignments": [
+            "ATLETA"
+          ]
+        },
+        {
+          "file": "IMG_0219.CR3",
+          "target_identities": [],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "IMG_0220.CR3",
+          "target_identities": [],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "IMG_0221.CR3",
+          "target_identities": [],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "IMG_0222.CR3",
+          "target_identities": [],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "IMG_0223.CR3",
+          "target_identities": [],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "IMG_0224.CR3",
+          "target_identities": [],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "IMG_0225.CR3",
+          "target_identities": [],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "IMG_0226.CR3",
+          "target_identities": [],
+          "predicted_identity": null,
+          "all_assignments": []
+        }
+      ],
+      "source_report": ".codex_tmp/cr3_run_20260809_2/_reporte_facesync.json",
+      "note": null
+    },
+    {
+      "run_name": "favorable_control_reference",
+      "report_path": null,
+      "metrics": {
+        "by_identity": {
+          "ATLETA": {
+            "tp": 17,
+            "fp": 0,
+            "fn": 3,
+            "precision": 1.0,
+            "recall": 0.85
+          },
+          "BAILARINA": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 2,
+            "precision": 1.0,
+            "recall": 0.333333
+          }
+        },
+        "overall": {
+          "target_photos": 23,
+          "predicted_photos": 18,
+          "correct_photos": 18,
+          "precision": 1.0,
+          "recall": 0.782609
+        },
+        "errors": [
+          {
+            "file": "_R4A0055.cr3",
+            "expected": [
+              "ATLETA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          },
+          {
+            "file": "_R4A1229.cr3",
+            "expected": [
+              "ATLETA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          },
+          {
+            "file": "_R4A4513.cr3",
+            "expected": [
+              "BAILARINA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          },
+          {
+            "file": "_R4A7192.cr3",
+            "expected": [
+              "BAILARINA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          },
+          {
+            "file": "_R4A9874.cr3",
+            "expected": [
+              "ATLETA"
+            ],
+            "predicted": null,
+            "error": "false_negative"
+          }
+        ]
+      },
+      "duplicate_assignments": [],
+      "unknown_deliveries": [
+        {
+          "identity": "ATLETA",
+          "file": "_CONTROL9177.cr3"
+        }
+      ],
+      "rows": [
+        {
+          "file": "_R4A0055.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A0142.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": "ATLETA",
+          "all_assignments": [
+            "ATLETA"
+          ]
+        },
+        {
+          "file": "_R4A0149.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": "ATLETA",
+          "all_assignments": [
+            "ATLETA"
+          ]
+        },
+        {
+          "file": "_R4A0156.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": "ATLETA",
+          "all_assignments": [
+            "ATLETA"
+          ]
+        },
+        {
+          "file": "_R4A0160.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": "ATLETA",
+          "all_assignments": [
+            "ATLETA"
+          ]
+        },
+        {
+          "file": "_R4A0170.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": "ATLETA",
+          "all_assignments": [
+            "ATLETA"
+          ]
+        },
+        {
+          "file": "_R4A0177.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": "ATLETA",
+          "all_assignments": [
+            "ATLETA"
+          ]
+        },
+        {
+          "file": "_R4A0189.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": "ATLETA",
+          "all_assignments": [
+            "ATLETA"
+          ]
+        },
+        {
+          "file": "_R4A0195.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": "ATLETA",
+          "all_assignments": [
+            "ATLETA"
+          ]
+        },
+        {
+          "file": "_R4A0215.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": "ATLETA",
+          "all_assignments": [
+            "ATLETA"
+          ]
+        },
+        {
+          "file": "_R4A0229.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": "ATLETA",
+          "all_assignments": [
+            "ATLETA"
+          ]
+        },
+        {
+          "file": "_R4A1229.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A1235.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": "ATLETA",
+          "all_assignments": [
+            "ATLETA"
+          ]
+        },
+        {
+          "file": "_R4A1239.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": "ATLETA",
+          "all_assignments": [
+            "ATLETA"
+          ]
+        },
+        {
+          "file": "_R4A1244.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": "ATLETA",
+          "all_assignments": [
+            "ATLETA"
+          ]
+        },
+        {
+          "file": "_R4A1247.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": "ATLETA",
+          "all_assignments": [
+            "ATLETA"
+          ]
+        },
+        {
+          "file": "_R4A1251.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": "ATLETA",
+          "all_assignments": [
+            "ATLETA"
+          ]
+        },
+        {
+          "file": "_R4A1258.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": "ATLETA",
+          "all_assignments": [
+            "ATLETA"
+          ]
+        },
+        {
+          "file": "_R4A1272.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": "ATLETA",
+          "all_assignments": [
+            "ATLETA"
+          ]
+        },
+        {
+          "file": "_R4A4513.cr3",
+          "target_identities": [
+            "BAILARINA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A6176.cr3",
+          "target_identities": [
+            "BAILARINA"
+          ],
+          "predicted_identity": "BAILARINA",
+          "all_assignments": [
+            "BAILARINA"
+          ]
+        },
+        {
+          "file": "_R4A7192.cr3",
+          "target_identities": [
+            "BAILARINA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "_R4A9874.cr3",
+          "target_identities": [
+            "ATLETA"
+          ],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "IMG_0219.CR3",
+          "target_identities": [],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "IMG_0220.CR3",
+          "target_identities": [],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "IMG_0221.CR3",
+          "target_identities": [],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "IMG_0222.CR3",
+          "target_identities": [],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "IMG_0223.CR3",
+          "target_identities": [],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "IMG_0224.CR3",
+          "target_identities": [],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "IMG_0225.CR3",
+          "target_identities": [],
+          "predicted_identity": null,
+          "all_assignments": []
+        },
+        {
+          "file": "IMG_0226.CR3",
+          "target_identities": [],
+          "predicted_identity": null,
+          "all_assignments": []
+        }
+      ],
+      "source_report": ".codex_tmp/cr3_run_20260809_3/_reporte_facesync.json",
+      "note": "La copia _CONTROL9177.cr3 corresponde byte por byte a _R4A0177.cr3 y no forma parte de las 31 fotos originales."
+    }
+  ],
+  "representation_diagnostics": {
+    "schema_version": 1,
+    "purpose": "Diagnóstico CR3 Módulo 1; no interviene en clasificación.",
+    "model_name": "ArcFace",
+    "detector_backend": "retinaface",
+    "direct_threshold": 0.28,
+    "gallery_definition": "truth_leave_one_out_diagnostic_only",
+    "source_root": "C:\\Users\\ianca\\Desktop\\.cr3",
+    "identity_count": 2,
+    "photo_count": 31,
+    "summaries": {
+      "preview": {
+        "decoded": 31,
+        "with_faces": 31,
+        "total_faces": 31,
+        "direct_natural_reference": {
+          "by_identity": {
+            "ATLETA": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 19,
+              "precision": 1.0,
+              "recall": 0.05
+            },
+            "BAILARINA": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 2,
+              "precision": 1.0,
+              "recall": 0.333333
+            }
+          },
+          "overall": {
+            "target_photos": 23,
+            "predicted_photos": 2,
+            "correct_photos": 2,
+            "precision": 1.0,
+            "recall": 0.086957
+          },
+          "errors": [
+            {
+              "file": "_R4A0055.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A0142.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A0149.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A0156.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A0160.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A0170.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A0177.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A0189.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A0195.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A0215.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A0229.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A1229.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A1235.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A1239.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A1244.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A1247.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A1251.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A1258.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A1272.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A4513.cr3",
+              "expected": [
+                "BAILARINA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A7192.cr3",
+              "expected": [
+                "BAILARINA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            }
+          ]
+        }
+      },
+      "fullraw": {
+        "decoded": 31,
+        "with_faces": 31,
+        "total_faces": 31,
+        "direct_natural_reference": {
+          "by_identity": {
+            "ATLETA": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 19,
+              "precision": 1.0,
+              "recall": 0.05
+            },
+            "BAILARINA": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 2,
+              "precision": 1.0,
+              "recall": 0.333333
+            }
+          },
+          "overall": {
+            "target_photos": 23,
+            "predicted_photos": 2,
+            "correct_photos": 2,
+            "precision": 1.0,
+            "recall": 0.086957
+          },
+          "errors": [
+            {
+              "file": "_R4A0055.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A0142.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A0149.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A0156.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A0160.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A0170.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A0177.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A0189.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A0195.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A0215.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A0229.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A1229.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A1235.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A1239.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A1244.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A1247.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A1251.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A1258.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A1272.cr3",
+              "expected": [
+                "ATLETA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A4513.cr3",
+              "expected": [
+                "BAILARINA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            },
+            {
+              "file": "_R4A7192.cr3",
+              "expected": [
+                "BAILARINA"
+              ],
+              "predicted": null,
+              "error": "false_negative"
+            }
+          ]
+        }
+      }
+    },
+    "photos": [
+      {
+        "file": "_R4A0055.cr3",
+        "sha256": "19FA370C23E4E417BA584DF0E724476AF7F749022595A11FA49AF82CC7459690",
+        "target_identities": [
+          "ATLETA"
+        ],
+        "companion_identities": [],
+        "no_target": false,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 0.99,
+                "facial_area": {
+                  "x": 908.0,
+                  "y": 116.0,
+                  "w": 346.0,
+                  "h": 289.0
+                },
+                "normalized_area": {
+                  "x": 0.301061,
+                  "y": 0.05754,
+                  "w": 0.114721,
+                  "h": 0.143353
+                },
+                "min_side_pixels": 289.0,
+                "image_area_ratio": 0.016446,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.733356,
+                    "control_reference": 0.805168
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.93778,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.680301,
+                    "top3_average": 0.69888
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.864552,
+                    "top3_average": 0.890901
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.733356,
+            "second_reference_distance": 0.93778,
+            "reference_margin": 0.204423
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 2016,
+              "height": 3016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 605.0,
+                  "y": 204.0,
+                  "w": 256.0,
+                  "h": 380.0
+                },
+                "normalized_area": {
+                  "x": 0.300099,
+                  "y": 0.067639,
+                  "w": 0.126984,
+                  "h": 0.125995
+                },
+                "min_side_pixels": 256.0,
+                "image_area_ratio": 0.015999,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.483536,
+                    "control_reference": 0.417227
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.89156,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.245187,
+                    "top3_average": 0.249468
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.89156,
+                    "top3_average": 0.914987
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.483536,
+            "second_reference_distance": 0.89156,
+            "reference_margin": 0.408024
+          }
+        }
+      },
+      {
+        "file": "_R4A0142.cr3",
+        "sha256": "5141631FCD5728FF05798B46D632EC7AF5B8283F282C6467552949333D25179F",
+        "target_identities": [
+          "ATLETA"
+        ],
+        "companion_identities": [],
+        "no_target": false,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 620.0,
+                  "y": 354.0,
+                  "w": 691.0,
+                  "h": 936.0
+                },
+                "normalized_area": {
+                  "x": 0.20557,
+                  "y": 0.175595,
+                  "w": 0.229111,
+                  "h": 0.464286
+                },
+                "min_side_pixels": 691.0,
+                "image_area_ratio": 0.106373,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.452709,
+                    "control_reference": 0.143865
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.841571,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.113341,
+                    "top3_average": 0.122334
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.841571,
+                    "top3_average": 0.941367
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.452709,
+            "second_reference_distance": 0.841571,
+            "reference_margin": 0.388862
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 626.0,
+                  "y": 364.0,
+                  "w": 688.0,
+                  "h": 923.0
+                },
+                "normalized_area": {
+                  "x": 0.20756,
+                  "y": 0.180556,
+                  "w": 0.228117,
+                  "h": 0.457837
+                },
+                "min_side_pixels": 688.0,
+                "image_area_ratio": 0.10444,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.437269,
+                    "control_reference": 0.21371
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.873963,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.118257,
+                    "top3_average": 0.127793
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.873963,
+                    "top3_average": 0.94215
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.437269,
+            "second_reference_distance": 0.873963,
+            "reference_margin": 0.436694
+          }
+        }
+      },
+      {
+        "file": "_R4A0149.cr3",
+        "sha256": "EC56BF5DD418D70EEA1FB0D7C4A05A3603631C461FD9BAEECC7F5B1BC9420C18",
+        "target_identities": [
+          "ATLETA"
+        ],
+        "companion_identities": [],
+        "no_target": false,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 894.0,
+                  "y": 286.0,
+                  "w": 652.0,
+                  "h": 915.0
+                },
+                "normalized_area": {
+                  "x": 0.296419,
+                  "y": 0.141865,
+                  "w": 0.21618,
+                  "h": 0.453869
+                },
+                "min_side_pixels": 652.0,
+                "image_area_ratio": 0.098118,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.446294,
+                    "control_reference": 0.162732
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.83171,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.056367,
+                    "top3_average": 0.08174
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.83171,
+                    "top3_average": 0.927725
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.446294,
+            "second_reference_distance": 0.83171,
+            "reference_margin": 0.385416
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 898.0,
+                  "y": 284.0,
+                  "w": 651.0,
+                  "h": 915.0
+                },
+                "normalized_area": {
+                  "x": 0.297745,
+                  "y": 0.140873,
+                  "w": 0.215849,
+                  "h": 0.453869
+                },
+                "min_side_pixels": 651.0,
+                "image_area_ratio": 0.097967,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.389879,
+                    "control_reference": 0.200941
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.823461,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.058311,
+                    "top3_average": 0.082588
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.823461,
+                    "top3_average": 0.897699
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.389879,
+            "second_reference_distance": 0.823461,
+            "reference_margin": 0.433583
+          }
+        }
+      },
+      {
+        "file": "_R4A0156.cr3",
+        "sha256": "A9FF6626008E543F597CFE01A831F6C64689E6A8134FF56F2B914B14F1E38D1B",
+        "target_identities": [
+          "ATLETA"
+        ],
+        "companion_identities": [],
+        "no_target": false,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 908.0,
+                  "y": 240.0,
+                  "w": 649.0,
+                  "h": 912.0
+                },
+                "normalized_area": {
+                  "x": 0.301061,
+                  "y": 0.119048,
+                  "w": 0.215186,
+                  "h": 0.452381
+                },
+                "min_side_pixels": 649.0,
+                "image_area_ratio": 0.097346,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.439718,
+                    "control_reference": 0.143385
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.831958,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.056367,
+                    "top3_average": 0.071707
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.831958,
+                    "top3_average": 0.912537
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.439718,
+            "second_reference_distance": 0.831958,
+            "reference_margin": 0.39224
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 914.0,
+                  "y": 245.0,
+                  "w": 647.0,
+                  "h": 907.0
+                },
+                "normalized_area": {
+                  "x": 0.30305,
+                  "y": 0.121528,
+                  "w": 0.214523,
+                  "h": 0.449901
+                },
+                "min_side_pixels": 647.0,
+                "image_area_ratio": 0.096514,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.416304,
+                    "control_reference": 0.18685
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.886647,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.058311,
+                    "top3_average": 0.080839
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.886647,
+                    "top3_average": 0.93049
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.416304,
+            "second_reference_distance": 0.886647,
+            "reference_margin": 0.470342
+          }
+        }
+      },
+      {
+        "file": "_R4A0160.cr3",
+        "sha256": "C0E16C77A3E751CB7626A60C22FB0EBBC6DB48222E4062D29D18B904ACF8768F",
+        "target_identities": [
+          "ATLETA"
+        ],
+        "companion_identities": [],
+        "no_target": false,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 993.0,
+                  "y": 191.0,
+                  "w": 663.0,
+                  "h": 947.0
+                },
+                "normalized_area": {
+                  "x": 0.329244,
+                  "y": 0.094742,
+                  "w": 0.219828,
+                  "h": 0.469742
+                },
+                "min_side_pixels": 663.0,
+                "image_area_ratio": 0.103262,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.477806,
+                    "control_reference": 0.157013
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.8682,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.069152,
+                    "top3_average": 0.085014
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.8682,
+                    "top3_average": 0.916178
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.477806,
+            "second_reference_distance": 0.8682,
+            "reference_margin": 0.390394
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 997.0,
+                  "y": 196.0,
+                  "w": 662.0,
+                  "h": 938.0
+                },
+                "normalized_area": {
+                  "x": 0.33057,
+                  "y": 0.097222,
+                  "w": 0.219496,
+                  "h": 0.465278
+                },
+                "min_side_pixels": 662.0,
+                "image_area_ratio": 0.102127,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.402043,
+                    "control_reference": 0.209031
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.871186,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.068595,
+                    "top3_average": 0.082403
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.871186,
+                    "top3_average": 0.913028
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.402043,
+            "second_reference_distance": 0.871186,
+            "reference_margin": 0.469144
+          }
+        }
+      },
+      {
+        "file": "_R4A0170.cr3",
+        "sha256": "0AE9AFA72FC4EDB401A8A20B83080764D85F65647CF782A88CA4A21CA11859FC",
+        "target_identities": [
+          "ATLETA"
+        ],
+        "companion_identities": [],
+        "no_target": false,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1031.0,
+                  "y": 305.0,
+                  "w": 664.0,
+                  "h": 922.0
+                },
+                "normalized_area": {
+                  "x": 0.341844,
+                  "y": 0.15129,
+                  "w": 0.220159,
+                  "h": 0.457341
+                },
+                "min_side_pixels": 664.0,
+                "image_area_ratio": 0.100688,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.462058,
+                    "control_reference": 0.108399
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.839461,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.089603,
+                    "top3_average": 0.097012
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.839461,
+                    "top3_average": 0.894983
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.462058,
+            "second_reference_distance": 0.839461,
+            "reference_margin": 0.377404
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1036.0,
+                  "y": 312.0,
+                  "w": 661.0,
+                  "h": 913.0
+                },
+                "normalized_area": {
+                  "x": 0.343501,
+                  "y": 0.154762,
+                  "w": 0.219164,
+                  "h": 0.452877
+                },
+                "min_side_pixels": 661.0,
+                "image_area_ratio": 0.099255,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.452069,
+                    "control_reference": 0.128419
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.811009,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.106619,
+                    "top3_average": 0.112363
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.811009,
+                    "top3_average": 0.873198
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.452069,
+            "second_reference_distance": 0.811009,
+            "reference_margin": 0.35894
+          }
+        }
+      },
+      {
+        "file": "_R4A0177.cr3",
+        "sha256": "EBDDBFEA9BC7A642D99A0B3BFFA72FD9FF704EB7F445D36243C5B09B26AABE3C",
+        "target_identities": [
+          "ATLETA"
+        ],
+        "companion_identities": [],
+        "no_target": false,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 907.0,
+                  "y": 332.0,
+                  "w": 795.0,
+                  "h": 1076.0
+                },
+                "normalized_area": {
+                  "x": 0.300729,
+                  "y": 0.164683,
+                  "w": 0.263594,
+                  "h": 0.53373
+                },
+                "min_side_pixels": 795.0,
+                "image_area_ratio": 0.140688,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.441372,
+                    "control_reference": 0.0
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.807658,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.108399,
+                    "top3_average": 0.121167
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.807658,
+                    "top3_average": 0.913686
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.441372,
+            "second_reference_distance": 0.807658,
+            "reference_margin": 0.366286
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 914.0,
+                  "y": 349.0,
+                  "w": 807.0,
+                  "h": 1063.0
+                },
+                "normalized_area": {
+                  "x": 0.30305,
+                  "y": 0.173115,
+                  "w": 0.267573,
+                  "h": 0.527282
+                },
+                "min_side_pixels": 807.0,
+                "image_area_ratio": 0.141086,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.480397,
+                    "control_reference": -0.0
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.820166,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.128419,
+                    "top3_average": 0.17207
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.820166,
+                    "top3_average": 0.911588
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.480397,
+            "second_reference_distance": 0.820166,
+            "reference_margin": 0.339769
+          }
+        }
+      },
+      {
+        "file": "_R4A0189.cr3",
+        "sha256": "DA52B17B956F465EBC5689AE2A36DDC18BD66558CC297A3DCB10D88EF9DD77A4",
+        "target_identities": [
+          "ATLETA"
+        ],
+        "companion_identities": [],
+        "no_target": false,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1106.0,
+                  "y": 317.0,
+                  "w": 759.0,
+                  "h": 1052.0
+                },
+                "normalized_area": {
+                  "x": 0.366711,
+                  "y": 0.157242,
+                  "w": 0.251658,
+                  "h": 0.521825
+                },
+                "min_side_pixels": 759.0,
+                "image_area_ratio": 0.131321,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.512349,
+                    "control_reference": 0.1213
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.829249,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.097288,
+                    "top3_average": 0.098586
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.829249,
+                    "top3_average": 0.922758
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.512349,
+            "second_reference_distance": 0.829249,
+            "reference_margin": 0.3169
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1116.0,
+                  "y": 346.0,
+                  "w": 747.0,
+                  "h": 1008.0
+                },
+                "normalized_area": {
+                  "x": 0.370027,
+                  "y": 0.171627,
+                  "w": 0.247679,
+                  "h": 0.5
+                },
+                "min_side_pixels": 747.0,
+                "image_area_ratio": 0.12384,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.500943,
+                    "control_reference": 0.215725
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.826428,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.145165,
+                    "top3_average": 0.169018
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.826428,
+                    "top3_average": 0.856593
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.500943,
+            "second_reference_distance": 0.826428,
+            "reference_margin": 0.325485
+          }
+        }
+      },
+      {
+        "file": "_R4A0195.cr3",
+        "sha256": "C72D976FB8716A70ED99E54945B7E607A34FC378E5BF7B8F36C179A46CA2D91D",
+        "target_identities": [
+          "ATLETA"
+        ],
+        "companion_identities": [],
+        "no_target": false,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1061.0,
+                  "y": 307.0,
+                  "w": 722.0,
+                  "h": 928.0
+                },
+                "normalized_area": {
+                  "x": 0.35179,
+                  "y": 0.152282,
+                  "w": 0.23939,
+                  "h": 0.460317
+                },
+                "min_side_pixels": 722.0,
+                "image_area_ratio": 0.110195,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.483675,
+                    "control_reference": 0.221262
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.812479,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.149306,
+                    "top3_average": 0.171271
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.812479,
+                    "top3_average": 0.930506
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.483675,
+            "second_reference_distance": 0.812479,
+            "reference_margin": 0.328804
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1079.0,
+                  "y": 325.0,
+                  "w": 702.0,
+                  "h": 906.0
+                },
+                "normalized_area": {
+                  "x": 0.357759,
+                  "y": 0.16121,
+                  "w": 0.232759,
+                  "h": 0.449405
+                },
+                "min_side_pixels": 702.0,
+                "image_area_ratio": 0.104603,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.618627,
+                    "control_reference": 0.504778
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.612986,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.375614,
+                    "top3_average": 0.391526
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.35004,
+                    "top3_average": 0.450222
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.612986,
+            "second_reference_distance": 0.618627,
+            "reference_margin": 0.005641
+          }
+        }
+      },
+      {
+        "file": "_R4A0215.cr3",
+        "sha256": "D115B79FAA32499BBC08021F0336B2786299DE0ABFB6444E3ACA072EE8350EA7",
+        "target_identities": [
+          "ATLETA"
+        ],
+        "companion_identities": [],
+        "no_target": false,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1182.0,
+                  "y": 292.0,
+                  "w": 667.0,
+                  "h": 905.0
+                },
+                "normalized_area": {
+                  "x": 0.39191,
+                  "y": 0.144841,
+                  "w": 0.221154,
+                  "h": 0.448909
+                },
+                "min_side_pixels": 667.0,
+                "image_area_ratio": 0.099278,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.496319,
+                    "control_reference": 0.215269
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.913695,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.111306,
+                    "top3_average": 0.129074
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.913695,
+                    "top3_average": 0.972291
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.496319,
+            "second_reference_distance": 0.913695,
+            "reference_margin": 0.417377
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1186.0,
+                  "y": 294.0,
+                  "w": 660.0,
+                  "h": 900.0
+                },
+                "normalized_area": {
+                  "x": 0.393236,
+                  "y": 0.145833,
+                  "w": 0.218833,
+                  "h": 0.446429
+                },
+                "min_side_pixels": 660.0,
+                "image_area_ratio": 0.097693,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.460279,
+                    "control_reference": 0.236147
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.812174,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.145165,
+                    "top3_average": 0.174201
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.812174,
+                    "top3_average": 0.854804
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.460279,
+            "second_reference_distance": 0.812174,
+            "reference_margin": 0.351895
+          }
+        }
+      },
+      {
+        "file": "_R4A0229.cr3",
+        "sha256": "03EE76105CD222CEDA34699553B906D4FF6F34DD8429011E17F753230FD38A70",
+        "target_identities": [
+          "ATLETA"
+        ],
+        "companion_identities": [],
+        "no_target": false,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1032.0,
+                  "y": 267.0,
+                  "w": 667.0,
+                  "h": 931.0
+                },
+                "normalized_area": {
+                  "x": 0.342175,
+                  "y": 0.13244,
+                  "w": 0.221154,
+                  "h": 0.461806
+                },
+                "min_side_pixels": 667.0,
+                "image_area_ratio": 0.10213,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.438239,
+                    "control_reference": 0.133802
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.840398,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.133802,
+                    "top3_average": 0.155926
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.840398,
+                    "top3_average": 0.932747
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.438239,
+            "second_reference_distance": 0.840398,
+            "reference_margin": 0.402159
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1040.0,
+                  "y": 276.0,
+                  "w": 660.0,
+                  "h": 915.0
+                },
+                "normalized_area": {
+                  "x": 0.344828,
+                  "y": 0.136905,
+                  "w": 0.218833,
+                  "h": 0.453869
+                },
+                "min_side_pixels": 660.0,
+                "image_area_ratio": 0.099321,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.464768,
+                    "control_reference": 0.256308
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.783583,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.256308,
+                    "top3_average": 0.27331
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.783583,
+                    "top3_average": 0.861918
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.464768,
+            "second_reference_distance": 0.783583,
+            "reference_margin": 0.318814
+          }
+        }
+      },
+      {
+        "file": "_R4A1229.cr3",
+        "sha256": "74C379AF64F9F4416D3D956412F5766374426F4C10B9E14BCB481D4333218039",
+        "target_identities": [
+          "ATLETA"
+        ],
+        "companion_identities": [],
+        "no_target": false,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1147.0,
+                  "y": 195.0,
+                  "w": 281.0,
+                  "h": 383.0
+                },
+                "normalized_area": {
+                  "x": 0.380305,
+                  "y": 0.096726,
+                  "w": 0.09317,
+                  "h": 0.18998
+                },
+                "min_side_pixels": 281.0,
+                "image_area_ratio": 0.0177,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.621515,
+                    "control_reference": 0.480142
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.912652,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.379,
+                    "top3_average": 0.387687
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.912652,
+                    "top3_average": 0.937957
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.621515,
+            "second_reference_distance": 0.912652,
+            "reference_margin": 0.291137
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1148.0,
+                  "y": 196.0,
+                  "w": 282.0,
+                  "h": 391.0
+                },
+                "normalized_area": {
+                  "x": 0.380637,
+                  "y": 0.097222,
+                  "w": 0.093501,
+                  "h": 0.193948
+                },
+                "min_side_pixels": 282.0,
+                "image_area_ratio": 0.018134,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.501603,
+                    "control_reference": 0.401823
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.889936,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.155886,
+                    "top3_average": 0.16253
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.889936,
+                    "top3_average": 0.946439
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.501603,
+            "second_reference_distance": 0.889936,
+            "reference_margin": 0.388334
+          }
+        }
+      },
+      {
+        "file": "_R4A1235.cr3",
+        "sha256": "A7672662319BD5CFB3B3530A17DFB30F954AC3BE2C2798B815BEAC260306E769",
+        "target_identities": [
+          "ATLETA"
+        ],
+        "companion_identities": [],
+        "no_target": false,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1063.0,
+                  "y": 108.0,
+                  "w": 287.0,
+                  "h": 384.0
+                },
+                "normalized_area": {
+                  "x": 0.352454,
+                  "y": 0.053571,
+                  "w": 0.095159,
+                  "h": 0.190476
+                },
+                "min_side_pixels": 287.0,
+                "image_area_ratio": 0.018126,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.557933,
+                    "control_reference": 0.253928
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.866316,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.101395,
+                    "top3_average": 0.132204
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.866316,
+                    "top3_average": 0.955725
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.557933,
+            "second_reference_distance": 0.866316,
+            "reference_margin": 0.308382
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1069.0,
+                  "y": 114.0,
+                  "w": 284.0,
+                  "h": 386.0
+                },
+                "normalized_area": {
+                  "x": 0.354443,
+                  "y": 0.056548,
+                  "w": 0.094164,
+                  "h": 0.191468
+                },
+                "min_side_pixels": 284.0,
+                "image_area_ratio": 0.01803,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.543004,
+                    "control_reference": 0.346966
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.898822,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.040895,
+                    "top3_average": 0.055599
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.898822,
+                    "top3_average": 0.991374
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.543004,
+            "second_reference_distance": 0.898822,
+            "reference_margin": 0.355818
+          }
+        }
+      },
+      {
+        "file": "_R4A1239.cr3",
+        "sha256": "D8DF3F5DA806D2AF6FE4D3DEAE78EB1D5BCD3C193707A99EE0F8C41C85C82F7C",
+        "target_identities": [
+          "ATLETA"
+        ],
+        "companion_identities": [],
+        "no_target": false,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1155.0,
+                  "y": 184.0,
+                  "w": 283.0,
+                  "h": 390.0
+                },
+                "normalized_area": {
+                  "x": 0.382958,
+                  "y": 0.09127,
+                  "w": 0.093833,
+                  "h": 0.193452
+                },
+                "min_side_pixels": 283.0,
+                "image_area_ratio": 0.018152,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.550399,
+                    "control_reference": 0.250413
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.904309,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.048523,
+                    "top3_average": 0.080588
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.904309,
+                    "top3_average": 0.977042
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.550399,
+            "second_reference_distance": 0.904309,
+            "reference_margin": 0.353909
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1157.0,
+                  "y": 194.0,
+                  "w": 284.0,
+                  "h": 384.0
+                },
+                "normalized_area": {
+                  "x": 0.383621,
+                  "y": 0.09623,
+                  "w": 0.094164,
+                  "h": 0.190476
+                },
+                "min_side_pixels": 284.0,
+                "image_area_ratio": 0.017936,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.496492,
+                    "control_reference": 0.333037
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.848193,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.03951,
+                    "top3_average": 0.044665
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.848193,
+                    "top3_average": 0.952619
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.496492,
+            "second_reference_distance": 0.848193,
+            "reference_margin": 0.351702
+          }
+        }
+      },
+      {
+        "file": "_R4A1244.cr3",
+        "sha256": "C92EB9909368A1D379A16D77347986FE50999A76EDC52E7B6E97E353324DC43E",
+        "target_identities": [
+          "ATLETA"
+        ],
+        "companion_identities": [],
+        "no_target": false,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1163.0,
+                  "y": 205.0,
+                  "w": 280.0,
+                  "h": 399.0
+                },
+                "normalized_area": {
+                  "x": 0.38561,
+                  "y": 0.101687,
+                  "w": 0.092838,
+                  "h": 0.197917
+                },
+                "min_side_pixels": 280.0,
+                "image_area_ratio": 0.018374,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.512151,
+                    "control_reference": 0.206474
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.899363,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.048523,
+                    "top3_average": 0.08189
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.899363,
+                    "top3_average": 0.97001
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.512151,
+            "second_reference_distance": 0.899363,
+            "reference_margin": 0.387212
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1167.0,
+                  "y": 211.0,
+                  "w": 278.0,
+                  "h": 394.0
+                },
+                "normalized_area": {
+                  "x": 0.386936,
+                  "y": 0.104663,
+                  "w": 0.092175,
+                  "h": 0.195437
+                },
+                "min_side_pixels": 278.0,
+                "image_area_ratio": 0.018014,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.501371,
+                    "control_reference": 0.299187
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.859729,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.035529,
+                    "top3_average": 0.04674
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.859729,
+                    "top3_average": 0.952564
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.501371,
+            "second_reference_distance": 0.859729,
+            "reference_margin": 0.358358
+          }
+        }
+      },
+      {
+        "file": "_R4A1247.cr3",
+        "sha256": "43960CBDBC42F742F644C1BD29DB2F7FB3D6FE2DA59FE78BD1ABB44B4BB6C299",
+        "target_identities": [
+          "ATLETA"
+        ],
+        "companion_identities": [],
+        "no_target": false,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1128.0,
+                  "y": 215.0,
+                  "w": 289.0,
+                  "h": 377.0
+                },
+                "normalized_area": {
+                  "x": 0.374005,
+                  "y": 0.106647,
+                  "w": 0.095822,
+                  "h": 0.187004
+                },
+                "min_side_pixels": 289.0,
+                "image_area_ratio": 0.017919,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.501384,
+                    "control_reference": 0.266778
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.900337,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.067933,
+                    "top3_average": 0.104982
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.900337,
+                    "top3_average": 0.981631
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.501384,
+            "second_reference_distance": 0.900337,
+            "reference_margin": 0.398953
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1133.0,
+                  "y": 221.0,
+                  "w": 288.0,
+                  "h": 375.0
+                },
+                "normalized_area": {
+                  "x": 0.375663,
+                  "y": 0.109623,
+                  "w": 0.095491,
+                  "h": 0.186012
+                },
+                "min_side_pixels": 288.0,
+                "image_area_ratio": 0.017762,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.517017,
+                    "control_reference": 0.339825
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.895736,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.05359,
+                    "top3_average": 0.061073
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.895736,
+                    "top3_average": 0.979075
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.517017,
+            "second_reference_distance": 0.895736,
+            "reference_margin": 0.37872
+          }
+        }
+      },
+      {
+        "file": "_R4A1251.cr3",
+        "sha256": "154E6DDB0A79EA06CB53F1EF4851AA836442CB97DEF062256D4B8F997ABB54F2",
+        "target_identities": [
+          "ATLETA"
+        ],
+        "companion_identities": [],
+        "no_target": false,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1130.0,
+                  "y": 249.0,
+                  "w": 288.0,
+                  "h": 380.0
+                },
+                "normalized_area": {
+                  "x": 0.374668,
+                  "y": 0.123512,
+                  "w": 0.095491,
+                  "h": 0.188492
+                },
+                "min_side_pixels": 288.0,
+                "image_area_ratio": 0.017999,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.498708,
+                    "control_reference": 0.186721
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.883336,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.129213,
+                    "top3_average": 0.149884
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.883336,
+                    "top3_average": 0.951626
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.498708,
+            "second_reference_distance": 0.883336,
+            "reference_margin": 0.384628
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1135.0,
+                  "y": 254.0,
+                  "w": 285.0,
+                  "h": 382.0
+                },
+                "normalized_area": {
+                  "x": 0.376326,
+                  "y": 0.125992,
+                  "w": 0.094496,
+                  "h": 0.189484
+                },
+                "min_side_pixels": 285.0,
+                "image_area_ratio": 0.017905,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.47778,
+                    "control_reference": 0.243207
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.893538,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.07162,
+                    "top3_average": 0.090055
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.893538,
+                    "top3_average": 0.968621
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.47778,
+            "second_reference_distance": 0.893538,
+            "reference_margin": 0.415758
+          }
+        }
+      },
+      {
+        "file": "_R4A1258.cr3",
+        "sha256": "1861A78435B82FF9B5D08041EC5C35D941292A91AA897CF4BA9AD843E6224402",
+        "target_identities": [
+          "ATLETA"
+        ],
+        "companion_identities": [],
+        "no_target": false,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1206.0,
+                  "y": 160.0,
+                  "w": 290.0,
+                  "h": 370.0
+                },
+                "normalized_area": {
+                  "x": 0.399867,
+                  "y": 0.079365,
+                  "w": 0.096154,
+                  "h": 0.183532
+                },
+                "min_side_pixels": 290.0,
+                "image_area_ratio": 0.017647,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.537021,
+                    "control_reference": 0.32823
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.895519,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.17698,
+                    "top3_average": 0.195546
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.895519,
+                    "top3_average": 0.957892
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.537021,
+            "second_reference_distance": 0.895519,
+            "reference_margin": 0.358498
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1212.0,
+                  "y": 162.0,
+                  "w": 288.0,
+                  "h": 371.0
+                },
+                "normalized_area": {
+                  "x": 0.401857,
+                  "y": 0.080357,
+                  "w": 0.095491,
+                  "h": 0.184028
+                },
+                "min_side_pixels": 288.0,
+                "image_area_ratio": 0.017573,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.484835,
+                    "control_reference": 0.420163
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.891974,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.091729,
+                    "top3_average": 0.125664
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.891974,
+                    "top3_average": 0.964032
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.484835,
+            "second_reference_distance": 0.891974,
+            "reference_margin": 0.407139
+          }
+        }
+      },
+      {
+        "file": "_R4A1272.cr3",
+        "sha256": "865ACDCF854813C4C6869C90768575A6ECFFF37FA6F5CA42E4A0FE97E5CB2367",
+        "target_identities": [
+          "ATLETA"
+        ],
+        "companion_identities": [],
+        "no_target": false,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1162.0,
+                  "y": 154.0,
+                  "w": 275.0,
+                  "h": 382.0
+                },
+                "normalized_area": {
+                  "x": 0.385279,
+                  "y": 0.076389,
+                  "w": 0.09118,
+                  "h": 0.189484
+                },
+                "min_side_pixels": 275.0,
+                "image_area_ratio": 0.017277,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.881202,
+                    "control_reference": 0.902953
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.68859,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.825865,
+                    "top3_average": 0.855852
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.055642,
+                    "top3_average": 0.317259
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.68859,
+            "second_reference_distance": 0.881202,
+            "reference_margin": 0.192612
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1169.0,
+                  "y": 153.0,
+                  "w": 274.0,
+                  "h": 391.0
+                },
+                "normalized_area": {
+                  "x": 0.387599,
+                  "y": 0.075893,
+                  "w": 0.090849,
+                  "h": 0.193948
+                },
+                "min_side_pixels": 274.0,
+                "image_area_ratio": 0.01762,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.510522,
+                    "control_reference": 0.342961
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.86819,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.035529,
+                    "top3_average": 0.057983
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.86819,
+                    "top3_average": 0.950812
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.510522,
+            "second_reference_distance": 0.86819,
+            "reference_margin": 0.357668
+          }
+        }
+      },
+      {
+        "file": "_R4A4513.cr3",
+        "sha256": "21B1FE49598316A50F21C414209F04F6B434084F45AB3ED2F383EA2CD39930A2",
+        "target_identities": [
+          "BAILARINA"
+        ],
+        "companion_identities": [],
+        "no_target": false,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 0.0,
+                "facial_area": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 3015.0,
+                  "h": 2015.0
+                },
+                "normalized_area": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 0.999668,
+                  "h": 0.999504
+                },
+                "min_side_pixels": 2015.0,
+                "image_area_ratio": 0.999173,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.948946,
+                    "control_reference": 0.986896
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.713497,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 20,
+                    "min_distance": 0.055642,
+                    "top3_average": 0.621407
+                  },
+                  "BAILARINA": {
+                    "support_count": 2,
+                    "min_distance": 0.186165,
+                    "top3_average": 0.449831
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.713497,
+            "second_reference_distance": 0.948946,
+            "reference_margin": 0.235449
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 2016,
+              "height": 3016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1313.0,
+                  "y": 1080.0,
+                  "w": 142.0,
+                  "h": 125.0
+                },
+                "normalized_area": {
+                  "x": 0.65129,
+                  "y": 0.35809,
+                  "w": 0.070437,
+                  "h": 0.041446
+                },
+                "min_side_pixels": 125.0,
+                "image_area_ratio": 0.002919,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.901055,
+                    "control_reference": 0.958032
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.519529,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 20,
+                    "min_distance": 0.35004,
+                    "top3_average": 0.70334
+                  },
+                  "BAILARINA": {
+                    "support_count": 2,
+                    "min_distance": 0.073525,
+                    "top3_average": 0.296527
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.519529,
+            "second_reference_distance": 0.901055,
+            "reference_margin": 0.381526
+          }
+        }
+      },
+      {
+        "file": "_R4A6176.cr3",
+        "sha256": "F7E244F701D84DD6F65363493FD34750772102CAD413C707A3D2B9D50B20E72B",
+        "target_identities": [
+          "BAILARINA"
+        ],
+        "companion_identities": [],
+        "no_target": false,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 0.99,
+                "facial_area": {
+                  "x": 1770.0,
+                  "y": 426.0,
+                  "w": 144.0,
+                  "h": 145.0
+                },
+                "normalized_area": {
+                  "x": 0.58687,
+                  "y": 0.21131,
+                  "w": 0.047745,
+                  "h": 0.071925
+                },
+                "min_side_pixels": 144.0,
+                "image_area_ratio": 0.003434,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.776963,
+                    "control_reference": 0.807658
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.0,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 20,
+                    "min_distance": 0.68859,
+                    "top3_average": 0.757737
+                  },
+                  "BAILARINA": {
+                    "support_count": 2,
+                    "min_distance": 0.574722,
+                    "top3_average": 0.644109
+                  }
+                }
+              }
+            ],
+            "predicted_identity": "BAILARINA",
+            "best_reference_distance": 0.0,
+            "second_reference_distance": 0.776963,
+            "reference_margin": 0.776963
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1770.0,
+                  "y": 429.0,
+                  "w": 146.0,
+                  "h": 144.0
+                },
+                "normalized_area": {
+                  "x": 0.58687,
+                  "y": 0.212798,
+                  "w": 0.048408,
+                  "h": 0.071429
+                },
+                "min_side_pixels": 144.0,
+                "image_area_ratio": 0.003458,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.762091,
+                    "control_reference": 0.820166
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.0,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 20,
+                    "min_distance": 0.612986,
+                    "top3_average": 0.719553
+                  },
+                  "BAILARINA": {
+                    "support_count": 2,
+                    "min_distance": 0.460609,
+                    "top3_average": 0.490069
+                  }
+                }
+              }
+            ],
+            "predicted_identity": "BAILARINA",
+            "best_reference_distance": 0.0,
+            "second_reference_distance": 0.762091,
+            "reference_margin": 0.762091
+          }
+        }
+      },
+      {
+        "file": "_R4A7192.cr3",
+        "sha256": "4F7A09F355D47D1B301066F03AC635C3E9FE7C0EF1C31B731027486E19EEC467",
+        "target_identities": [
+          "BAILARINA"
+        ],
+        "companion_identities": [],
+        "no_target": false,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1492.0,
+                  "y": 658.0,
+                  "w": 169.0,
+                  "h": 229.0
+                },
+                "normalized_area": {
+                  "x": 0.494695,
+                  "y": 0.326389,
+                  "w": 0.056034,
+                  "h": 0.113591
+                },
+                "min_side_pixels": 169.0,
+                "image_area_ratio": 0.006365,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.857865,
+                    "control_reference": 0.946503
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.574722,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 20,
+                    "min_distance": 0.207546,
+                    "top3_average": 0.645261
+                  },
+                  "BAILARINA": {
+                    "support_count": 2,
+                    "min_distance": 0.186165,
+                    "top3_average": 0.380443
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.574722,
+            "second_reference_distance": 0.857865,
+            "reference_margin": 0.283143
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1499.0,
+                  "y": 661.0,
+                  "w": 161.0,
+                  "h": 223.0
+                },
+                "normalized_area": {
+                  "x": 0.497016,
+                  "y": 0.327877,
+                  "w": 0.053382,
+                  "h": 0.110615
+                },
+                "min_side_pixels": 161.0,
+                "image_area_ratio": 0.005905,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.863533,
+                    "control_reference": 0.956566
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.460609,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 20,
+                    "min_distance": 0.38764,
+                    "top3_average": 0.706061
+                  },
+                  "BAILARINA": {
+                    "support_count": 2,
+                    "min_distance": 0.073525,
+                    "top3_average": 0.267067
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.460609,
+            "second_reference_distance": 0.863533,
+            "reference_margin": 0.402924
+          }
+        }
+      },
+      {
+        "file": "_R4A9874.cr3",
+        "sha256": "93FB3D2291F8B31319E16C84267726A7B1B8C61D9DFB42F433EF37F2137883D3",
+        "target_identities": [
+          "ATLETA"
+        ],
+        "companion_identities": [],
+        "no_target": false,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1094.0,
+                  "y": 166.0,
+                  "w": 287.0,
+                  "h": 387.0
+                },
+                "normalized_area": {
+                  "x": 0.362732,
+                  "y": 0.082341,
+                  "w": 0.095159,
+                  "h": 0.191964
+                },
+                "min_side_pixels": 287.0,
+                "image_area_ratio": 0.018267,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.0,
+                    "control_reference": 0.441372
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.776963,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.438239,
+                    "top3_average": 0.439776
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.776963,
+                    "top3_average": 0.861258
+                  }
+                }
+              }
+            ],
+            "predicted_identity": "ATLETA",
+            "best_reference_distance": 0.0,
+            "second_reference_distance": 0.776963,
+            "reference_margin": 0.776963
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3016,
+              "height": 2016
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 1.0,
+                "facial_area": {
+                  "x": 1101.0,
+                  "y": 165.0,
+                  "w": 285.0,
+                  "h": 384.0
+                },
+                "normalized_area": {
+                  "x": 0.365053,
+                  "y": 0.081845,
+                  "w": 0.094496,
+                  "h": 0.190476
+                },
+                "min_side_pixels": 285.0,
+                "image_area_ratio": 0.017999,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.0,
+                    "control_reference": 0.480397
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.762091,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 19,
+                    "min_distance": 0.389879,
+                    "top3_average": 0.402742
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.762091,
+                    "top3_average": 0.842226
+                  }
+                }
+              }
+            ],
+            "predicted_identity": "ATLETA",
+            "best_reference_distance": 0.0,
+            "second_reference_distance": 0.762091,
+            "reference_margin": 0.762091
+          }
+        }
+      },
+      {
+        "file": "IMG_0219.CR3",
+        "sha256": "94494EBE3BC87F0BBF6CC5F9DCAA6FB959D2BECB18FD23DD6CECAEF9D71AB981",
+        "target_identities": [],
+        "companion_identities": [],
+        "no_target": true,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3132,
+              "height": 2090
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 0.99,
+                "facial_area": {
+                  "x": 928.0,
+                  "y": 669.0,
+                  "w": 290.0,
+                  "h": 372.0
+                },
+                "normalized_area": {
+                  "x": 0.296296,
+                  "y": 0.320096,
+                  "w": 0.092593,
+                  "h": 0.17799
+                },
+                "min_side_pixels": 290.0,
+                "image_area_ratio": 0.016481,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.887373,
+                    "control_reference": 0.873426
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.83821,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 20,
+                    "min_distance": 0.840081,
+                    "top3_average": 0.845245
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.83821,
+                    "top3_average": 0.854627
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.83821,
+            "second_reference_distance": 0.887373,
+            "reference_margin": 0.049163
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3132,
+              "height": 2090
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 0.99,
+                "facial_area": {
+                  "x": 951.0,
+                  "y": 672.0,
+                  "w": 280.0,
+                  "h": 372.0
+                },
+                "normalized_area": {
+                  "x": 0.30364,
+                  "y": 0.321531,
+                  "w": 0.0894,
+                  "h": 0.17799
+                },
+                "min_side_pixels": 280.0,
+                "image_area_ratio": 0.015912,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.858757,
+                    "control_reference": 0.836025
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.839976,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 20,
+                    "min_distance": 0.825291,
+                    "top3_average": 0.840024
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.839188,
+                    "top3_average": 0.857371
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.839976,
+            "second_reference_distance": 0.858757,
+            "reference_margin": 0.018782
+          }
+        }
+      },
+      {
+        "file": "IMG_0220.CR3",
+        "sha256": "20182D831C47721EA4786FBAB1EEC70B5182EA5AF92200E2EF32127FC60B8E7D",
+        "target_identities": [],
+        "companion_identities": [],
+        "no_target": true,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3132,
+              "height": 2090
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 0.99,
+                "facial_area": {
+                  "x": 930.0,
+                  "y": 667.0,
+                  "w": 290.0,
+                  "h": 375.0
+                },
+                "normalized_area": {
+                  "x": 0.296935,
+                  "y": 0.319139,
+                  "w": 0.092593,
+                  "h": 0.179426
+                },
+                "min_side_pixels": 290.0,
+                "image_area_ratio": 0.016614,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.901013,
+                    "control_reference": 0.887807
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.849458,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 20,
+                    "min_distance": 0.83211,
+                    "top3_average": 0.843035
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.831753,
+                    "top3_average": 0.853657
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.849458,
+            "second_reference_distance": 0.901013,
+            "reference_margin": 0.051555
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3132,
+              "height": 2090
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 0.99,
+                "facial_area": {
+                  "x": 952.0,
+                  "y": 670.0,
+                  "w": 279.0,
+                  "h": 374.0
+                },
+                "normalized_area": {
+                  "x": 0.303959,
+                  "y": 0.320574,
+                  "w": 0.08908,
+                  "h": 0.178947
+                },
+                "min_side_pixels": 279.0,
+                "image_area_ratio": 0.015941,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.8558,
+                    "control_reference": 0.826021
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.850369,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 20,
+                    "min_distance": 0.826021,
+                    "top3_average": 0.839913
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.84156,
+                    "top3_average": 0.862237
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.850369,
+            "second_reference_distance": 0.8558,
+            "reference_margin": 0.005431
+          }
+        }
+      },
+      {
+        "file": "IMG_0221.CR3",
+        "sha256": "D0666EE54EE4D3374B784A9ADDD2F996D361B9359D9D2B14381FFE138B6B78DA",
+        "target_identities": [],
+        "companion_identities": [],
+        "no_target": true,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3132,
+              "height": 2090
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 0.99,
+                "facial_area": {
+                  "x": 930.0,
+                  "y": 669.0,
+                  "w": 288.0,
+                  "h": 372.0
+                },
+                "normalized_area": {
+                  "x": 0.296935,
+                  "y": 0.320096,
+                  "w": 0.091954,
+                  "h": 0.17799
+                },
+                "min_side_pixels": 288.0,
+                "image_area_ratio": 0.016367,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.865167,
+                    "control_reference": 0.868141
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.828192,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 20,
+                    "min_distance": 0.824596,
+                    "top3_average": 0.831744
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.828192,
+                    "top3_average": 0.840799
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.828192,
+            "second_reference_distance": 0.865167,
+            "reference_margin": 0.036975
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3132,
+              "height": 2090
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 0.99,
+                "facial_area": {
+                  "x": 952.0,
+                  "y": 674.0,
+                  "w": 278.0,
+                  "h": 370.0
+                },
+                "normalized_area": {
+                  "x": 0.303959,
+                  "y": 0.322488,
+                  "w": 0.088761,
+                  "h": 0.177033
+                },
+                "min_side_pixels": 278.0,
+                "image_area_ratio": 0.015714,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.858788,
+                    "control_reference": 0.828228
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.842685,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 20,
+                    "min_distance": 0.813719,
+                    "top3_average": 0.829967
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.824531,
+                    "top3_average": 0.848489
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.842685,
+            "second_reference_distance": 0.858788,
+            "reference_margin": 0.016103
+          }
+        }
+      },
+      {
+        "file": "IMG_0222.CR3",
+        "sha256": "F8EB6301DD2FDDA249396F720B911CDCEB6D517B509FE9E1C014E6DCC28918DA",
+        "target_identities": [],
+        "companion_identities": [],
+        "no_target": true,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3132,
+              "height": 2090
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 0.99,
+                "facial_area": {
+                  "x": 930.0,
+                  "y": 664.0,
+                  "w": 290.0,
+                  "h": 378.0
+                },
+                "normalized_area": {
+                  "x": 0.296935,
+                  "y": 0.317703,
+                  "w": 0.092593,
+                  "h": 0.180861
+                },
+                "min_side_pixels": 290.0,
+                "image_area_ratio": 0.016746,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.875197,
+                    "control_reference": 0.865926
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.825935,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 20,
+                    "min_distance": 0.817254,
+                    "top3_average": 0.828393
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.816438,
+                    "top3_average": 0.830331
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.825935,
+            "second_reference_distance": 0.875197,
+            "reference_margin": 0.049262
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3132,
+              "height": 2090
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 0.99,
+                "facial_area": {
+                  "x": 951.0,
+                  "y": 671.0,
+                  "w": 281.0,
+                  "h": 371.0
+                },
+                "normalized_area": {
+                  "x": 0.30364,
+                  "y": 0.321053,
+                  "w": 0.089719,
+                  "h": 0.177512
+                },
+                "min_side_pixels": 281.0,
+                "image_area_ratio": 0.015926,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.85707,
+                    "control_reference": 0.816167
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.840301,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 20,
+                    "min_distance": 0.756771,
+                    "top3_average": 0.80671
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.790034,
+                    "top3_average": 0.820945
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.840301,
+            "second_reference_distance": 0.85707,
+            "reference_margin": 0.016769
+          }
+        }
+      },
+      {
+        "file": "IMG_0223.CR3",
+        "sha256": "D28778B4A2EA5290A589ED3F81586EBE80FF4A7F26FEA5D459443CD021FF762C",
+        "target_identities": [],
+        "companion_identities": [],
+        "no_target": true,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3132,
+              "height": 2090
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 0.99,
+                "facial_area": {
+                  "x": 927.0,
+                  "y": 661.0,
+                  "w": 293.0,
+                  "h": 381.0
+                },
+                "normalized_area": {
+                  "x": 0.295977,
+                  "y": 0.316268,
+                  "w": 0.09355,
+                  "h": 0.182297
+                },
+                "min_side_pixels": 293.0,
+                "image_area_ratio": 0.017054,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.880242,
+                    "control_reference": 0.880064
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.814258,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 20,
+                    "min_distance": 0.824963,
+                    "top3_average": 0.837219
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.814258,
+                    "top3_average": 0.837904
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.814258,
+            "second_reference_distance": 0.880242,
+            "reference_margin": 0.065984
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3132,
+              "height": 2090
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 0.99,
+                "facial_area": {
+                  "x": 951.0,
+                  "y": 666.0,
+                  "w": 281.0,
+                  "h": 376.0
+                },
+                "normalized_area": {
+                  "x": 0.30364,
+                  "y": 0.31866,
+                  "w": 0.089719,
+                  "h": 0.179904
+                },
+                "min_side_pixels": 281.0,
+                "image_area_ratio": 0.016141,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.844261,
+                    "control_reference": 0.764179
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.790429,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 20,
+                    "min_distance": 0.681309,
+                    "top3_average": 0.745846
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.68537,
+                    "top3_average": 0.73493
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.790429,
+            "second_reference_distance": 0.844261,
+            "reference_margin": 0.053832
+          }
+        }
+      },
+      {
+        "file": "IMG_0224.CR3",
+        "sha256": "C5035BAEA266C45373002FB41159AFD8DD134AF03A0B86D0C733835603530482",
+        "target_identities": [],
+        "companion_identities": [],
+        "no_target": true,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3132,
+              "height": 2090
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 0.99,
+                "facial_area": {
+                  "x": 929.0,
+                  "y": 663.0,
+                  "w": 289.0,
+                  "h": 378.0
+                },
+                "normalized_area": {
+                  "x": 0.296616,
+                  "y": 0.317225,
+                  "w": 0.092273,
+                  "h": 0.180861
+                },
+                "min_side_pixels": 289.0,
+                "image_area_ratio": 0.016689,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.85341,
+                    "control_reference": 0.856259
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.791437,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 20,
+                    "min_distance": 0.809072,
+                    "top3_average": 0.82392
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.791437,
+                    "top3_average": 0.818011
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.791437,
+            "second_reference_distance": 0.85341,
+            "reference_margin": 0.061973
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3132,
+              "height": 2090
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 0.99,
+                "facial_area": {
+                  "x": 952.0,
+                  "y": 665.0,
+                  "w": 282.0,
+                  "h": 378.0
+                },
+                "normalized_area": {
+                  "x": 0.303959,
+                  "y": 0.318182,
+                  "w": 0.090038,
+                  "h": 0.180861
+                },
+                "min_side_pixels": 282.0,
+                "image_area_ratio": 0.016284,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.787988,
+                    "control_reference": 0.740144
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.748795,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 20,
+                    "min_distance": 0.547601,
+                    "top3_average": 0.677265
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.551355,
+                    "top3_average": 0.626599
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.748795,
+            "second_reference_distance": 0.787988,
+            "reference_margin": 0.039193
+          }
+        }
+      },
+      {
+        "file": "IMG_0225.CR3",
+        "sha256": "B4064BFD2A90E2E66435CB1A99CC52E6FCA711B04EB00D596F95AE930E2474B5",
+        "target_identities": [],
+        "companion_identities": [],
+        "no_target": true,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3132,
+              "height": 2090
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 0.99,
+                "facial_area": {
+                  "x": 929.0,
+                  "y": 659.0,
+                  "w": 290.0,
+                  "h": 381.0
+                },
+                "normalized_area": {
+                  "x": 0.296616,
+                  "y": 0.315311,
+                  "w": 0.092593,
+                  "h": 0.182297
+                },
+                "min_side_pixels": 290.0,
+                "image_area_ratio": 0.016879,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.844503,
+                    "control_reference": 0.861802
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.797588,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 20,
+                    "min_distance": 0.761364,
+                    "top3_average": 0.804566
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.768141,
+                    "top3_average": 0.785655
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.797588,
+            "second_reference_distance": 0.844503,
+            "reference_margin": 0.046915
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3132,
+              "height": 2090
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 0.99,
+                "facial_area": {
+                  "x": 957.0,
+                  "y": 663.0,
+                  "w": 279.0,
+                  "h": 388.0
+                },
+                "normalized_area": {
+                  "x": 0.305556,
+                  "y": 0.317225,
+                  "w": 0.08908,
+                  "h": 0.185646
+                },
+                "min_side_pixels": 279.0,
+                "image_area_ratio": 0.016537,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.800369,
+                    "control_reference": 0.868563
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.541946,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 20,
+                    "min_distance": 0.342133,
+                    "top3_average": 0.633685
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.188812,
+                    "top3_average": 0.31072
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.541946,
+            "second_reference_distance": 0.800369,
+            "reference_margin": 0.258423
+          }
+        }
+      },
+      {
+        "file": "IMG_0226.CR3",
+        "sha256": "38077CF7754C3FDA3BF1A6103AA1BB0310270F2937674BE0BF392094601C0CB7",
+        "target_identities": [],
+        "companion_identities": [],
+        "no_target": true,
+        "routes": {
+          "preview": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3132,
+              "height": 2090
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 0.99,
+                "facial_area": {
+                  "x": 930.0,
+                  "y": 660.0,
+                  "w": 290.0,
+                  "h": 384.0
+                },
+                "normalized_area": {
+                  "x": 0.296935,
+                  "y": 0.315789,
+                  "w": 0.092593,
+                  "h": 0.183732
+                },
+                "min_side_pixels": 290.0,
+                "image_area_ratio": 0.017012,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.806695,
+                    "control_reference": 0.835594
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.779803,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 20,
+                    "min_distance": 0.606361,
+                    "top3_average": 0.726009
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.625988,
+                    "top3_average": 0.694437
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.779803,
+            "second_reference_distance": 0.806695,
+            "reference_margin": 0.026892
+          },
+          "fullraw": {
+            "decode_status": "converted",
+            "image_size": {
+              "width": 3132,
+              "height": 2090
+            },
+            "face_count": 1,
+            "faces": [
+              {
+                "face_index": 0,
+                "confidence": 0.98,
+                "facial_area": {
+                  "x": 966.0,
+                  "y": 672.0,
+                  "w": 269.0,
+                  "h": 372.0
+                },
+                "normalized_area": {
+                  "x": 0.308429,
+                  "y": 0.321531,
+                  "w": 0.085888,
+                  "h": 0.17799
+                },
+                "min_side_pixels": 269.0,
+                "image_area_ratio": 0.015287,
+                "distances_to_references": {
+                  "ATLETA": {
+                    "natural_reference": 0.885634,
+                    "control_reference": 0.973114
+                  },
+                  "BAILARINA": {
+                    "natural_reference": 0.50538,
+                    "control_reference": null
+                  }
+                },
+                "distances_to_truth_gallery": {
+                  "ATLETA": {
+                    "support_count": 20,
+                    "min_distance": 0.333292,
+                    "top3_average": 0.685066
+                  },
+                  "BAILARINA": {
+                    "support_count": 3,
+                    "min_distance": 0.02694,
+                    "top3_average": 0.201779
+                  }
+                }
+              }
+            ],
+            "predicted_identity": null,
+            "best_reference_distance": 0.50538,
+            "second_reference_distance": 0.885634,
+            "reference_margin": 0.380255
+          }
+        }
+      }
+    ]
+  }
+}

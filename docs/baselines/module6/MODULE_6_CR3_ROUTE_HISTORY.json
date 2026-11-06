@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "module": 6,
+  "name": "Registro historico y cache consciente de ruta",
+  "sqlite": {
+    "from_schema": 1,
+    "to_schema": 2,
+    "strategy": "additive_table",
+    "new_table": "identity_route_records",
+    "idempotent": true,
+    "legacy_records_preserved": true,
+    "cr2_table_changed": false
+  },
+  "cr3_cache_versions": {
+    "preview": "cr3_preview_v1",
+    "index_preview": "cr3_index_preview_v1",
+    "fullraw": "cr3_fullraw_v1",
+    "cr2_cache_changed": false
+  },
+  "route_rules": {
+    "preview_fullraw_embeddings_mixed": false,
+    "historical_match_requires_same_representation": true,
+    "historical_match_requires_same_processing_version": true,
+    "non_cr3_excludes_route_specific_cr3_history": true,
+    "minimum_independent_supports": 2
+  },
+  "automated_tests": {
+    "passed": 129,
+    "failed": 0,
+    "schema_migration": true,
+    "second_and_third_room": true,
+    "account_isolation": true,
+    "session_reopen": true,
+    "cache_cleanup_preserves_history": true,
+    "python_compile": true,
+    "vite_build": true,
+    "cargo_release_check": true,
+    "pyinstaller_sidecar": true
+  },
+  "real_cr3": {
+    "source_evaluation": ".codex_tmp/module6_cr3_20260811/natural_run_2/MODULE_3_CR3_NATURAL_EVALUATION.json",
+    "sidecar_evaluation": ".codex_tmp/module6_cr3_20260811/sidecar_run_1/MODULE_3_CR3_SIDECAR_EVALUATION.json",
+    "correct_photos": 23,
+    "predicted_photos": 23,
+    "target_photos": 23,
+    "precision": 1.0,
+    "recall": 1.0,
+    "raw_errors": 0,
+    "image_errors": 0,
+    "registered_route_records": [
+      {"student": "ATLETA", "representation": "preview", "support_count": 16},
+      {"student": "ATLETA", "representation": "fullraw", "support_count": 14},
+      {"student": "BAILARINA", "representation": "fullraw", "support_count": 2}
+    ]
+  },
+  "cr2_golden_regression": {
+    "status": "APROBADA",
+    "assignment_count": 259,
+    "assignment_manifest_sha256": "471F9281458F5A3A28F49FE1243757C44F8AA8750CB1E4E7EAC6594A4F8C30EE",
+    "report": ".codex_tmp/module6_cr3_20260811/cr2_regression_sidecar_final/output/_reporte_facesync.json"
+  },
+  "packaged_sidecar": {
+    "path": "engine/dist/FaceSyncEngine/FaceSyncEngine.exe",
+    "resource_path": "frontend/src-tauri/resources/engine/FaceSyncEngine.exe",
+    "sha256": "2D4C9B1A5DA908294A7E292C3713CC04D6EBE30AAB349289975AADDECFEBC7CB",
+    "resource_copy_identical": true
+  },
+  "unchanged_components": [
+    "RetinaFace",
+    "ArcFace",
+    "secure_threshold_0.28",
+    "review_threshold_0.40",
+    "module5_route_arbiter",
+    "JPG_classification",
+    "CR2_classification"
+  ],
+  "next_module_started": false
+}

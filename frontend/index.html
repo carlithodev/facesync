@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/src/assets/icon/icon_1024.png" />
+    <title>FaceSync</title>
+    <style>
+      /* Fondo oscuro desde el 1er pixel: elimina el flash blanco del webview. */
+      html, body { margin: 0; height: 100%; background: #070710; }
+      #root { height: 100%; }
+      /* Splash instantáneo (se pinta antes de cargar React; React lo reemplaza). */
+      #boot {
+        position: fixed; inset: 0; overflow: hidden; background: #070710;
+      }
+      #boot::before,
+      #boot::after {
+        content: ""; position: absolute; border-radius: 9999px;
+        filter: blur(130px); pointer-events: none;
+      }
+      #boot::before {
+        width: 520px; height: 520px; right: -160px; top: -160px;
+        background: rgba(192, 38, 211, 0.15);
+      }
+      #boot::after {
+        width: 520px; height: 520px; left: -128px; bottom: -192px;
+        background: rgba(67, 56, 202, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div id="boot"></div>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
